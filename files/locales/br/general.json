@@ -1,0 +1,88 @@
+{
+  "maps":{
+    "white_orchard":"O Commonwealth"
+  },
+  "home":{
+    "tagline":"Mapa interativo não oficial Fallout 4 <br>(atualmente em desenvolvimento)",
+    "resultsFound":"resultado (s) encontrados.",
+    "searchPlaceholder":"Inseri termos de pesquisa..."
+  },
+  "notes":{
+    "label":"Gravadora:",
+    "title":"Título:",
+    "note":"Nota:",
+    "enterLabel":"Digite o rótulo do mapa...",
+    "enterTitle":"Digite o título da nota...",
+    "enterText":"Digite o texto da nota...",
+    "saveNote":"Salvar a nota",
+    "deleteNote":"Excluir nota"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Retorno à página de seleção de mapa",
+    "alchemy":"Mag: Manual de operações encobertas",
+    "abandoned":"Locais",
+    "armourer":"Bonecos",
+    "armourerstable":"PowerArmor",
+    "banditcamp":"Mag: Cirúrgico diário",
+    "barber":"Mag: Contos espantosamente incríveis",
+    "blacksmith":"Mag: Hack Total",
+    "brothel":"Mag: Manual de operações encobertas",
+    "loveInterest":"Interesse Amoroso",
+    "entrance":"Mag: Manual de operações encobertas",
+    "grindstone":"Mag: Grognak o bárbaro",
+    "guarded":"Mag: Armas e balas",
+    "gwent":"Mag: Rodder quente",
+    "harbor":"Mag: La Coiffe",
+    "herbalist":"Mag: Viver o amor",
+    "hidden":"Assentamentos",
+    "magwasteland":"Mag: Guia de Sobrevivência Wasteland",
+    "monsternest":"Armas Exclusivas",
+    "monsterden":"Mag: Cercas",
+    "notice":"Mag: Tabu Tatuagens",
+    "pid":"Mag: Unstoppables",
+    "pop":"Mag: Contos de um fornecedor de carne seca Junktown",
+    "poi":"Robô modelo Kits",
+    "signpost":"Mag: RobCo Divertido",
+    "shopkeeper":"Mag: Copos Hoje",
+    "smugglers":"Mag: Contos de um fornecedor de carne seca Junktown",
+    "masterlock":"Bloqueio Mestre",
+    "masterterminal":"Terminal de Mestre",
+    "magtesla":"Mag: Revista de ciência de Tesla",
+    "spoils":"Mag: Tabu Tatuagens",
+    "quest":"Missões secundárias",
+    "miscquest":"Objetivos do misc.",
+    "nuke":"Mini bomba nuclear",
+    "powercore":"Núcleo de fusão"
+  },
+  "controls":{
+    "show":"Mostrar todos",
+    "hide":"Ocultar todos",
+    "showCounts":"Mostrar contagens",
+    "hideCounts":"Esconder contagens",
+    "resetInvisible":"Redefinir o invisível",
+    "resetInvisConfirm":"Isto irá repor todos os marcadores invisível\/rastreado ao seu estado padrão (visível), tem certeza?",
+    "hideMonsters":"Esconder monstros",
+    "showMonsters":"Mostrar os monstros",
+    "helpFeatures":"Recursos e ajuda",
+    "credits":"Créditos",
+    "backupSave":"Isto irá baixar uma cópia de backup de todas as configurações de Fallout 4 mapa.  \n\nO arquivo será salvo como: __fileName__ \n\nVocê tem certeza?",
+    "backupLoad":"Restaure as configurações:",
+    "backupLoadSuccess":"Dados de restauração completa!",
+    "backupLoadFail":"Restauração falha, verifique o seu arquivo.",
+    "backupHtmlFail":"Sinto muito.  Restauração não é possível.  Este navegador não oferece suporte a APIs de arquivo HTML5."
+  },
+  "credits":{
+    "botCreated":"Criado por __lordfiSh__, licenciado sob __license__",
+    "botHelp":"Com a ajuda de __mcarver__ e outros __contributors__. Para a lista completa das bibliotecas Javascript usado, __jsCredits__.",
+    "botAssets":"Texto, ícones, mapa e logotipo fallout 4 são de propriedade de __cdpr__"
+  },
+  "misc":{
+    "contribute":"Trabalho em andamento! Ajuda apreciadas em __link__",
+    "discuss":"Comentários, sugestões? Discutir sobre __link__",
+    "helpTranslate":"Quer ajudar ou melhorar as traduções?",
+    "portraitWarn":"Nota: o mapa é melhor visualizado em modo paisagem, torneira para demitir",
+    "loveInterestDesc":"Conheça seu interesse do amor aqui",
+    "nsfwConfirm":"Isto vai mudar 'Bordel' para 'Interesse do amor', você tem certeza?",
+    "nsfwUndo":"Tem certeza que quer voltar?"
+  }
+}

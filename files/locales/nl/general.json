@@ -1,0 +1,88 @@
+{
+  "maps":{
+    "white_orchard":"De Commonwealth"
+  },
+  "home":{
+    "tagline":"Onofficiële Interactieve Fallout 4 Map <br>(Momenteel in ontwikkeling)",
+    "resultsFound":"resultaten gevonden.",
+    "searchPlaceholder":"Voer zoekterm in..."
+  },
+  "notes":{
+    "label":"Label:",
+    "title":"Titel:",
+    "note":"Notitie:",
+    "enterLabel":"Voer map label in...",
+    "enterTitle":"Voer de notitie titel in...",
+    "enterText":"Voer de notitie tekst in...",
+    "saveNote":"Notitie Opslaan",
+    "deleteNote":"Notitie Verwijderen"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Terug naar Map Selectie",
+    "alchemy":"Mag: Covert Operations Manual",
+    "abandoned":"Locaties",
+    "armourer":"Bobbleheads",
+    "armourerstable":"Powerarmor",
+    "banditcamp":"Mag: Surgical Journal",
+    "barber":"Mag: Astoundingly Awesome Tales",
+    "blacksmith":"Mag: Total Hack",
+    "brothel":"Mag: Covert Operations Manual",
+    "loveInterest":"Love Interest",
+    "entrance":"Mag: Covert Operations Manual",
+    "grindstone":"Mag: Grognak the Barbarian",
+    "guarded":"Mag: Guns and Bullets",
+    "gwent":"Mag: Hot Rodder",
+    "harbor":"Mag: La Coiffe",
+    "herbalist":"Mag: Live Love",
+    "hidden":"Nederzettingen",
+    "magwasteland":"Mag: Wasteland Survival Guide",
+    "monsternest":"Unieke Wapens",
+    "monsterden":"Mag: Picket Fences",
+    "notice":"Mag: Taboo Tattoos",
+    "pid":"Mag: Unstoppables",
+    "pop":"Mag: Tales of a Junktown Jerky Vendor",
+    "poi":"Robot Model Kits",
+    "signpost":"Mag: RobCo Fun",
+    "shopkeeper":"Mag: Tumblers Today",
+    "smugglers":"Mag: Tales of a Junktown Jerky Vendor",
+    "masterlock":"Master Lock",
+    "masterterminal":"Master Terminal",
+    "magtesla":"Mag: Tesla Science Magazine",
+    "spoils":"Mag: Taboo Tattoos",
+    "quest":"Zij-Missies",
+    "miscquest":"Overige Missies",
+    "nuke":"Mini Nuke",
+    "powercore":"Fusion Core"
+  },
+  "controls":{
+    "show":"Toon Alle",
+    "hide":"Verberg Alle",
+    "showCounts":"Toon Hoeveelheden",
+    "hideCounts":"Verberg Hoeveelheden",
+    "resetInvisible":"Reset Onzichtbaren",
+    "resetInvisConfirm":"Dit zal alle onzichtbare\/bijgehouden markeertekens terug zetten naar hun normale (zichtbare) staat, weet u dit zeker?",
+    "hideMonsters":"Verberg Monsters",
+    "showMonsters":"Toon Monsters",
+    "helpFeatures":"Functies & Hulp",
+    "credits":"Credits",
+    "backupSave":"Dit zal een back-up van alle Fallout 4 map instellingen downloaden.\n\nHet bestand zal worden opgeslagen als: __fileName__\n\nWeet u het zeker?",
+    "backupLoad":"Uw instellingen herstellen:",
+    "backupLoadSuccess":"Data Herstelling Voltooid!",
+    "backupLoadFail":"Herstellen mislukt, controleer uw bestand",
+    "backupHtmlFail":"Helaas is herstelling niet mogelijk. Deze browser support geen HTML5 bestand API's."
+  },
+  "credits":{
+    "botCreated":"Gemaakt door __lordfiSh__, gelicentieerd onder __license__",
+    "botHelp":"Met hulp van __mcarver__, & andere __contributors__. Voor de volle lijst aan Javascript libraries gebruikt, __jsCredits__.",
+    "botAssets":"Fallout 4 logo, inconen, map &amp; teks is eigendom van __cdpr__"
+  },
+  "misc":{
+    "contribute":"In ontwikkeling! Help wordt gewaardeerd; __link__",
+    "discuss":"Feedback, suggesties? Laat het ons weten __link__",
+    "helpTranslate":"Wilt u helpen of vertalingen verbeteren?",
+    "portraitWarn":"Deze map is het best te bekijken in landscape modus, tik om te negeren",
+    "loveInterestDesc":"Ontmoet uw \"love interest\" hier",
+    "nsfwConfirm":"Dit verandert 'Brothel' naar 'Love Interest', weet u het zeker?",
+    "nsfwUndo":"Weet u zeker dat u terug wil?"
+  }
+}

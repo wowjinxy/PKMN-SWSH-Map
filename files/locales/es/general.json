@@ -1,0 +1,88 @@
+{
+  "maps":{
+    "white_orchard":"Mapa de Fallout 4"
+  },
+  "home":{
+    "tagline":"Unofficial Fallout 4 nuestro mapa interactivo <br>(actualmente en desarrollo)",
+    "resultsFound":"resultados encontrados.",
+    "searchPlaceholder":"Introduzca términos de búsqueda..."
+  },
+  "notes":{
+    "label":"Etiqueta:",
+    "title":"Título:",
+    "note":"Nota:",
+    "enterLabel":"Introduzca la etiqueta de mapa...",
+    "enterTitle":"Introduzca el título de la nota...",
+    "enterText":"Introduzca el texto de la nota...",
+    "saveNote":"Guardar nota",
+    "deleteNote":"Eliminar Nota"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Regreso a página de selección de mapa",
+    "alchemy":"MAG: Manual de operaciones encubiertas",
+    "abandoned":"Lugares",
+    "armourer":"Cabezones",
+    "armourerstable":"Powerarmor",
+    "banditcamp":"MAG: Quirúrgico diario",
+    "barber":"MAG: Cuentos asombrosamente impresionantes",
+    "blacksmith":"MAG: Total Hack",
+    "brothel":"MAG: Manual de operaciones encubiertas",
+    "loveInterest":"Interés amoroso",
+    "entrance":"MAG: Manual de operaciones encubiertas",
+    "grindstone":"MAG: Grognak el bárbaro",
+    "guarded":"MAG: Armas y balas",
+    "gwent":"MAG: Rodder caliente",
+    "harbor":"MAG: La Coiffe",
+    "herbalist":"MAG: Amor vivo",
+    "hidden":"Asentamientos",
+    "magwasteland":"Mag: Wasteland Survival Guide",
+    "monsternest":"Armas únicas",
+    "monsterden":"Mag: Picket Fences",
+    "notice":"MAG: Tabúes tatuajes",
+    "pid":"MAG: Unstoppables",
+    "pop":"MAG: Cuentos de un vendedor de Junktown desiguales",
+    "poi":"Kits del modelo del robot",
+    "signpost":"MAG: Diversión de RobCo",
+    "shopkeeper":"MAG: Vasos hoy",
+    "smugglers":"MAG: Cuentos de un vendedor de Junktown desiguales",
+    "masterlock":"Master Lock",
+    "masterterminal":"Terminal Master",
+    "magtesla":"MAG: Revista de ciencia de Tesla",
+    "spoils":"MAG: Tabúes tatuajes",
+    "quest":"Side Quests",
+    "miscquest":"Misc. Objectives",
+    "nuke":"Mini Nuke",
+    "powercore":"Fusion Core"
+  },
+  "controls":{
+    "show":"Mostrar todos",
+    "hide":"Ocultar todos",
+    "showCounts":"Mostrar cuentas",
+    "hideCounts":"Ocultar cuentas",
+    "resetInvisible":"Restablecer Invisible",
+    "resetInvisConfirm":"Esto restablecerá todos los marcadores invisibles\/seguimiento a su estado predeterminado (visible), ¿es seguro?",
+    "hideMonsters":"Ocultar monstruos",
+    "showMonsters":"Mostrar monstruos",
+    "helpFeatures":"Características y ayuda",
+    "credits":"Créditos",
+    "backupSave":"Esto descargará una copia de todos los ajustes de Fallout 4 mapa.  \n\nEl archivo se guardará como: __fileName__ \n\n¿estás seguro?",
+    "backupLoad":"Restaurar la configuración:",
+    "backupLoadSuccess":"Restore completo de los datos.",
+    "backupLoadFail":"No se pudo restaurar, compruebe su archivo",
+    "backupHtmlFail":"Lo siento.  No es posible restaurar.  Este navegador no es compatible con las API de archivos HTML5."
+  },
+  "credits":{
+    "botCreated":"Creado por __lordfiSh__, bajo __license__",
+    "botHelp":"Con la ayuda de __mcarver__ y otros __contributors__. La lista completa de librerías Javascript utilizado, __jsCredits__.",
+    "botAssets":"Texto, los iconos, mapa y logo de fallout 4 son propiedad de __cdpr__"
+  },
+  "misc":{
+    "contribute":"Work in progress! Ayuda apreciada en __link__",
+    "discuss":"¿Comentarios, sugerencias? Discutir sobre __link__",
+    "helpTranslate":"¿Quieres ayudar o mejorar las traducciones?",
+    "portraitWarn":"Nota: el mapa se ve mejor en modo horizontal, toque para despedir",
+    "loveInterestDesc":"Satisfacer su interés de amor aquí",
+    "nsfwConfirm":"Esto va a cambiar 'Burdel' a 'Interés amoroso', ¿estás seguro?",
+    "nsfwUndo":"¿Está seguro que desea volver?"
+  }
+}

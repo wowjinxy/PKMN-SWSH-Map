@@ -1,0 +1,88 @@
+{
+  "maps":{
+    "white_orchard":"Mapa Fallout 4"
+  },
+  "home":{
+    "tagline":"Nieoficjalna Interaktywna Mapa Fallout 4 <br>(W trakcie rozwoju)",
+    "resultsFound":"wynik(-i) znalezione.",
+    "searchPlaceholder":"Wpisz wyszukiwane hasła..."
+  },
+  "notes":{
+    "label":"Etykiety:",
+    "title":"Tytuł:",
+    "note":"Uwaga:",
+    "enterLabel":"Wpisz etykietę...",
+    "enterTitle":"Wpisz tytuł...",
+    "enterText":"Wpisz tekst...",
+    "saveNote":"Zapisz notatke",
+    "deleteNote":"Usuń notatkę"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Powrót do Strony Głównej",
+    "alchemy":"Vademecum Amerykańskich Sił Specjalnych",
+    "abandoned":"Lokacje",
+    "armourer":"Figurki",
+    "armourerstable":"Pancerz Wspomagany",
+    "banditcamp":"Periodyk Chirurgiczny Massachusetts",
+    "barber":"Niesamowicie Niesłychane Opowieści",
+    "blacksmith":"Haker Absolutny",
+    "brothel":"Vademecum Amerykańskich Sił Specjalnych",
+    "loveInterest":"n\/a",
+    "entrance":"Vademecum Amerykańskich Sił Specjalnych",
+    "grindstone":"Grognak Barbarzyńca",
+    "guarded":"Spluwy i Kulki",
+    "gwent":"Hotrodowiec",
+    "harbor":"La Coiffe",
+    "herbalist":"Żyj & Kochaj",
+    "hidden":"Osady",
+    "magwasteland":"Podręcznik Przetrwania na Pustkowiach",
+    "monsternest":"Unikalne Bronie",
+    "monsterden":"Wymarzony Dom",
+    "notice":"Zakazane Tatuaże",
+    "pid":"Niezwyciężeni",
+    "pop":"Opowieści Handlarza Mięsem z Junktown",
+    "poi":"Części robotów",
+    "signpost":"Zabawy z RobCo",
+    "shopkeeper":"Magazyn Ślusarski",
+    "smugglers":"Opowieści Handlarza Mięsem z Junktown",
+    "masterlock":"Mistrzowskie Zamki",
+    "masterterminal":"Mistrzowskie Terminale",
+    "magtesla":"Nauka z Teslą",
+    "spoils":"Zakazane Tatuaże",
+    "quest":"Zadania Poboczne",
+    "miscquest":"Pomniejsze Zadania",
+    "nuke":"Miniatomówka",
+    "powercore":"Rdzeń Fuzyjny"
+  },
+  "controls":{
+    "show":"Pokaż Wszystko",
+    "hide":"Ukryj Wszystko",
+    "showCounts":"Pokaż Ilość",
+    "hideCounts":"Ukryj Ilość",
+    "resetInvisible":"Przywróć ukryte",
+    "resetInvisConfirm":"Czy na pewno chcesz zresetować i przywrócić wszystkie ukryte\/śledzone znaczniki do ich domyślnego stanu (widocznego)?",
+    "hideMonsters":"Ukryj Potwory",
+    "showMonsters":"Pokaż Potwory",
+    "helpFeatures":"Funkcje & Pomoc",
+    "credits":"Twórcy",
+    "backupSave":"Pobieranie kopii zapasowej wraz ze wszystkimi ustawieniami mapy.\n\nPlik zostanie zapisany jako __fileName__\n\nCzy chcesz kontynuować?",
+    "backupLoad":"Przywróć swoje ustawienia:",
+    "backupLoadSuccess":"Pomyślnie przywrócono kopie zapasową!",
+    "backupLoadFail":"Przywracanie nie powiodło się, sprawdź swój plik kopii zapasowej",
+    "backupHtmlFail":"Nie można przywrócić danych. Twoja przeglądarka nie obsługuje plików HTML5 APIs."
+  },
+  "credits":{
+    "botCreated":"Stworzone przez __lordfiSh__, na licencji __license__",
+    "botHelp":"Stworzone przez __mcarver__ oraz wielu innych __contributors__ Wykorzystano biblioteki JavaScript __jsCredits__.",
+    "botAssets":"Wszystkie materiały związane z Fallout 4 zamieszczone na stronie (ikony, tekst, logo, marka) są własnością __cdpr__ i zostały wykorzystane bez pozwolenia"
+  },
+  "misc":{
+    "contribute":"W trakcie rozwoju! Każda pomoc mile widziana __link__",
+    "discuss":"Masz jakieś opinie lub sugestie? Możesz się nimi podzielić pod __link__",
+    "helpTranslate":"Chcesz pomóc, lub poprawić tłumaczenie?",
+    "portraitWarn":"n\/a",
+    "loveInterestDesc":"n\/a",
+    "nsfwConfirm":"n\/a",
+    "nsfwUndo":"Czy na pewno chcesz wrócić?"
+  }
+}

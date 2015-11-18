@@ -1,0 +1,88 @@
+{
+  "maps":{
+    "white_orchard":"Fallout 4 Mapa"
+  },
+  "home":{
+    "tagline":"Neoficiálna Fallout 4 interaktívna Mapa<br>(Momentálne vo vývoji)",
+    "resultsFound":"nájdené(ý) výsledky.",
+    "searchPlaceholder":"Zadajte hľadané slová..."
+  },
+  "notes":{
+    "label":"Menovka:",
+    "title":"Názov:",
+    "note":"Poznámka:",
+    "enterLabel":"Zadajte menovku mapy...",
+    "enterTitle":"Zadajte nadpis poznámky...",
+    "enterText":"Zadajte text poznámky...",
+    "saveNote":"Ulož poznámku",
+    "deleteNote":"Vymaž poznámku"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Návrat k mape",
+    "alchemy":"Mag: Covert Operations Manual",
+    "abandoned":"Lokalita",
+    "armourer":"Bobbleheads",
+    "armourerstable":"Powerarmor",
+    "banditcamp":"Mag: Surgical Journal",
+    "barber":"Mag: Astoundingly Awesome Tales",
+    "blacksmith":"Mag: Total Hack",
+    "brothel":"Mag: Covert Operations Manual",
+    "loveInterest":"Milostný záujem",
+    "entrance":"Mag: Covert Operations Manual",
+    "grindstone":"Mag: Grognak the Barbarian",
+    "guarded":"Mag: Guns and Bullets",
+    "gwent":"Mag: Hot Rodder",
+    "harbor":"Mag: La Coiffe",
+    "herbalist":"Mag: Live Love",
+    "hidden":"Usadlosti",
+    "magwasteland":"Mag: Wasteland Survival Guide",
+    "monsternest":"Unikátne zbrane",
+    "monsterden":"Mag: Picket Fences",
+    "notice":"Mag: Taboo Tattoos",
+    "pid":"Mag: Unstoppables",
+    "pop":"Mag: Tales of a Junktown Jerky Vendor",
+    "poi":"Robot Model Kits",
+    "signpost":"Mag: RobCo Fun",
+    "shopkeeper":"Mag: Tumblers Today",
+    "smugglers":"Mag: Tales of a Junktown Jerky Vendor",
+    "masterlock":"Master Lock",
+    "masterterminal":"Master Terminál",
+    "magtesla":"Mag: Tesla Science Magazine",
+    "spoils":"Mag: Taboo Tattoos",
+    "quest":"Side Quests",
+    "miscquest":"Misc. Objectives",
+    "nuke":"Mini Nuke",
+    "powercore":"Fusion Core"
+  },
+  "controls":{
+    "show":"Zobraziť všetky",
+    "hide":"Skryť všetky",
+    "showCounts":"Zobraziť počet",
+    "hideCounts":"Skryť počet",
+    "resetInvisible":"Obnoviť neviditeľné",
+    "resetInvisConfirm":"Toto obnoví všetky neviditeľné\/sledované značky na ich pôvodnú (viditeľnú) hodnotu, ste si istý?",
+    "hideMonsters":"Skryť monštrá",
+    "showMonsters":"Zobraziť monštrá",
+    "helpFeatures":"Funkcie & Pomocník",
+    "credits":"Poďakovania",
+    "backupSave":"Toto stiahne záložný súbor všetkých nastavení mapy\n\nTento súbor bude uložený ako: __fileName__\n\nSte si istý?",
+    "backupLoad":"Obnovenie nastavení:",
+    "backupLoadSuccess":"Obnova údajov kompletná!",
+    "backupLoadFail":"Obnovenie zlyhalo, skontrolujte súbor",
+    "backupHtmlFail":"Prepáčte. Obnovenie nie je možné. Tento prehliadač nepodporuje HTML5 súbor API."
+  },
+  "credits":{
+    "botCreated":"Vytvoril __lordfiSh__, licencované pod __license__",
+    "botHelp":"S pomocou __mcarver__ & iných __contributors__. Úplný zoznam Javascript knižníč, __jsCredits__.",
+    "botAssets":"Fallout 4 logo, ikony, mapa & texty sú majetkom __cdpr__"
+  },
+  "misc":{
+    "contribute":"Na stránke sa pracuje! Pomoc ocenená __link__",
+    "discuss":"Pripomienky, návrhy? Diskutuj na __link__",
+    "helpTranslate":"Chcete pomôcť, alebo zlepšiť preklad?",
+    "portraitWarn":"Poznámka: mapa je najlepšie zobrazená v režime na šírku, kliknite na zrušiť",
+    "loveInterestDesc":"Zoznámte sa s vašim milostným záujemom",
+    "nsfwConfirm":"Toto zmení \"Bordel\" na \"Milostný záujem\", ste si istý?",
+    "nsfwUndo":"Ste si istý, že sa chcete vrátiť?"
+  }
+}

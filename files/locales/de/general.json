@@ -1,0 +1,88 @@
+{
+  "maps":{
+    "white_orchard":"Fallout 4 Karte"
+  },
+  "home":{
+    "tagline":"Inoffizielle interaktive Fallout 4 Karte <br>(derzeit noch in Entwicklung)",
+    "resultsFound":"Ergebnis(se) gefunden.",
+    "searchPlaceholder":"Geben Sie Suchbegriffe ein..."
+  },
+  "notes":{
+    "label":"Bezeichnung:",
+    "title":"Titel:",
+    "note":"Notiz:",
+    "enterLabel":"Kartenbezeichnung eingeben...",
+    "enterTitle":"Geben Sie den Titel der Notiz ein...",
+    "enterText":"Geben Sie den Notiztext ein...",
+    "saveNote":"Notiz speichern",
+    "deleteNote":"Notiz löschen"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Zurück zur Kartenauswahlseite",
+    "alchemy":"Mag: U.S.-Handbuch für verdeckte Einsätze",
+    "abandoned":"Standorte",
+    "armourer":"Wackelköpfe",
+    "armourerstable":"Powerrüstung",
+    "banditcamp":"Mag: Massachusetts-Chirurgenblatt",
+    "barber":"Mag: Unglaublich überwältigende Geschichten",
+    "blacksmith":"Mag: Total Hack",
+    "brothel":"Mag: U.S.-Handbuch für verdeckte Einsätze",
+    "loveInterest":"n\/a",
+    "entrance":"Mag: U.S.-Handbuch für verdeckte Einsätze",
+    "grindstone":"Mag: Grognak der Barbar",
+    "guarded":"Mag: Pistolen und Patronen",
+    "gwent":"Mag: Hot Rodder",
+    "harbor":"Mag: La Coiffe",
+    "herbalist":"Mag: Leben und Lieben",
+    "hidden":"Siedlungen",
+    "magwasteland":"Mag: Wasteland Survival Guide",
+    "monsternest":"Einzigartige Waffen",
+    "monsterden":"Mag: Picket Fences",
+    "notice":"Mag: Tabu Tattoos",
+    "pid":"Mag: Die Unaufhaltsamen",
+    "pop":"Mag: Geschichten eines Dörrfleischverkäufers aus Junktown",
+    "poi":"Roboter-Modellbaukasten",
+    "signpost":"Mag: RobCo Fun",
+    "shopkeeper":"Mag: Schlosszuhaltungen heute",
+    "smugglers":"Mag: Geschichten eines Dörrfleischverkäufers aus Junktown",
+    "masterlock":"Meister Schloss\n",
+    "masterterminal":"Meister Terminal",
+    "magtesla":"Mag: Teslas Forschung",
+    "spoils":"Mag: Tabu Tattoos",
+    "quest":"Side Quests",
+    "miscquest":"Misc. Objectives",
+    "nuke":"Mini Nuke",
+    "powercore":"Fusion Core"
+  },
+  "controls":{
+    "show":"Alle anzeigen",
+    "hide":"Alle ausblenden",
+    "showCounts":"Zähler anzeigen",
+    "hideCounts":"Zähler ausblenden",
+    "resetInvisible":"Ausgeblendetes zurücksetzen",
+    "resetInvisConfirm":"Dies wird alle ausgeblendete\/verfolgte Marker auf ihren Standardzustand (sichtbar) zurücksetzen, sind Sie sicher?",
+    "hideMonsters":"n\/a",
+    "showMonsters":"n\/a",
+    "helpFeatures":"Funktionen & Hilfe",
+    "credits":"Credits",
+    "backupSave":"Dies wird eine Sicherungskopie aller Fallout 4 Karteneinstellungen herunterladen.\nDie Datei wird gespeichert als: __fileName__ \nBist du sicher?",
+    "backupLoad":"Einstellungen wiederherstellen:",
+    "backupLoadSuccess":"Datenwiederherstellung abgeschlossen!",
+    "backupLoadFail":"Wiederherstellung fehlgeschlagen ist, überprüfen Sie noch einmal Ihre Datei",
+    "backupHtmlFail":"Tut mir Leid.  Wiederherstellung ist nicht möglich.  Dieser Browser unterstützt kein HTML5-File-APIs."
+  },
+  "credits":{
+    "botCreated":"Erstellt von __lordfiSh__, lizensiert unter __license__",
+    "botHelp":"Mit Hilfe von __mcarver__ & anderen __contributors__. Für die vollständige Liste der verwendeten Javascript-Bibliotheken, __jsCredits__.",
+    "botAssets":"Fallout 4 Logo, Symbole, Karte &amp; Text sind Eigentum von __cdpr__"
+  },
+  "misc":{
+    "contribute":"In Arbeit! Hilfe wird begrüßt __link__",
+    "discuss":"Rückmeldungen, Vorschläge? Besprechen Sie auf __link__",
+    "helpTranslate":"Möchten Sie bei der Übersetzung mithelfen oder diese verbessern?",
+    "portraitWarn":"Die Karte lässt sich am besten im Landscape Modus betrachten",
+    "loveInterestDesc":"n\/a",
+    "nsfwConfirm":"n\/a",
+    "nsfwUndo":"Sind Sie sicher, dass Sie wieder zurück gehen möchten?"
+  }
+}
