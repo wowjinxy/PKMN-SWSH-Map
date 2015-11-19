@@ -321,10 +321,6 @@ $(document).on("loadMapdata", function () {
 		label: $.t("Diamond City"),
 		 popup: $.t('Side Quest Location: The Gilded Grasshopper, Long Time Coming, The Disappearing Act, Painting the Town')
 		}, {
-		coords: [[-60.522,-70.1811]],
-		label: $.t("Goodneibhor - The Big Dig"),
-		 popup: $.t('Side Quest Location')
-		}, {
 		coords: [[-64.755,-100.67]],
 		label: $.t("Chestnut Hillock Reservoir - Here Kitty, Kitty"),
 		 popup: $.t('Side Quest Location - you need to have visited <a href="http://fallout4map.de/w/index.html#5/-64.216/-89.495/w=-64.737,-100.195&m=-65.257,-107.139">Vault 81</a> already')
