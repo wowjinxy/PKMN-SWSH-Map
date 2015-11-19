@@ -259,6 +259,14 @@ $(document).on("loadMapdata", function () {
 			coords: [[-70.656,-72.334]],
 			label: $.t("Power Armor"),
 			popup: $.t('South Boston Military Checkpoint ')
+		}, {
+			coords: [[-37.265,-117.620]],
+			label: $.t("Power Armor"),
+			popup: $.t('Leveled armor on a train car, in a cage, behind an advanced terminal.')
+		}, {
+			coords: [[-3.908,-93.999]],
+			label: $.t("T51 Power Armor"),
+			popup: $.t('Leveled armor on a train car, in a cage, behind an advanced terminal.')
 		}
 		
 		
@@ -574,28 +582,45 @@ $(document).on("loadMapdata", function () {
 	// Guns and Bullets 
 		guarded: [{
 		coords: [[-60.109,-148.008]],
-			label: $.t("Guns and Bullets (1/10)"),
+			label: $.t("Guns and Bullets: Lasers & Hunting: Acceptable Overkill (1/10)"),
 			popup: $.t("+5% critical damage for Ballistic weapons | inside Fort Hagen On the oval table in the kitchen area, top floor, southeast area.")
 		},{
 		coords: [[-7.362,-11.426]],
-			label: $.t("Guns and Bullets (2/10)"),
-			popup: $.t("+5% critical damage for Ballistic weapons | inside Fort Hagen On the oval table in the kitchen area, top floor, southeast area.")
-		},{
-		coords: [[-7.362,-11.426]],
-			label: $.t("Guns and Bullets (3/10)"),
-			popup: $.t("+5% critical damage for Ballistic weapons | inside Fort Hagen On the oval table in the kitchen area, top floor, southeast area.")
-		},{
-		coords: [[-77.264,-90.967]],
-			label: $.t("Guns and Bullets (4/10)"),
-			popup: $.t("+5% critical damage for Ballistic weapons | inside Gunners Plaza - top Floor, south room")
+			label: $.t("Guns and Bullets: Avoid those Pesky Gun Laws! (2/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | Rook Family house, Inside Barney’s bunker, on a metal desk near the lantern and filing cabinet.")
 		},{
 		coords: [[-70.155,-71.147]],
-			label: $.t("Guns and Bullets (5/10)"),
-			popup: $.t("+5% critical damage for Ballistic weapons | South Boston Military Checkpoint")
-		}
-		
-		
-		],
+			label: $.t("Guns and Bullets: Take Aim, Army Style (3/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | South Boston military checkpoint, Inside the checkpoint, on a metal desk, east wall.")
+		},{
+		coords: [[-77.264,-90.967]],
+			label: $.t("Guns and Bullets: Street Guns of Detroit (4/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | inside Gunners Plaza - top Floor, south room")
+		},{
+		coords: [[-78.742,-59.370]],
+			label: $.t("Guns and Bullets: The Moon: A Communist Doomsday Device? (5/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | Quincy ruins, On the desk with the terminal, elevated freeway Gunners camp, between the two big-rig trailers.	")
+		},{
+		coords: [[-52.160,-103.535]],
+			label: $.t("Guns and Bullets: Bear Proofing Your Campsite:... (6/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | Cambridge police station, In a locked safe in the station chief’s office. Available only after Brotherhood reinforcements arrive at the station.")
+		},{
+		coords: [[-55.354,-101.777]],
+			label: $.t("Guns and Bullets: Little Guns For Little Ladies (7/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | Fraternal Post 115, On the lectern in the stage area, by the American flag and sandbags.")
+		},{
+		coords: [[-56.729,-78.706]],
+			label: $.t("Guns and Bullets: Guide to hunting commies! (8/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | Ticonderoga Safehouse, On the desk of the corner office, northwest corner, top floor.")
+		},{
+		coords: [[-48.283,-74.004]],
+			label: $.t("Guns and Bullets: The Future of Hunting? (9/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | BADTFL regional office, On a desk in the chief’s office, bullpen room in the western part of the building.")
+		},{
+		coords: [[-70.801,-47.417]],
+			label: $.t("Guns and Bullets: Plasma - The Weapon of Tomorrow (10/10)"),
+			popup: $.t("+5% critical damage for Ballistic weapons | The Castle, on the Radio Desk in the middle")
+		}],
 
 	// Hot Rodder (3/122)
 		gwent: [{
@@ -680,6 +705,10 @@ $(document).on("loadMapdata", function () {
 			coords: [[-70.319,-73.169]],
 			label: $.t("Master Lock - Safe"),
 			popup: $.t("South Boston Military Checkpoint ")
+		},{
+			coords: [[-34.016,-117.77]],
+			label: $.t("Master Lock"),
+			popup: $.t("Truck near the Diner")
 		}],
 		
 	//Nuke or Fusion Cores
@@ -1035,15 +1064,36 @@ $(document).on("loadMapdata", function () {
 		smugglers: [{
 			coords: [[-35.925,-133.945]],
 			label: $.t("Tales of a Junktown Jerky Vendor (1/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | in the sewer/Basement from Walden pond")
+			popup: $.t("better prices when buying from vendors for every issue | Walden Pond, in the sewer/Basement ")
+		},{
+			coords: [[-31.952,-98.833]],
+			label: $.t("Tales of a Junktown Jerky Vendor (2/8)"),
+			popup: $.t("better prices when buying from vendors for every issue | Mystic Pines, on the magazine stand, northwest wall, just right of the Milton General Hospital poster.")
+		},{
+			coords: [[-35.711,-106.479]],
+			label: $.t("Tales of a Junktown Jerky Vendor (3/8)"),
+			popup: $.t("better prices when buying from vendors for every issue | Super-Duper Mart,  on the magazine stand, northwest wall, just right of the Milton General Hospital poster.")
 		},{
 			coords: [[-29.267,-25.093]],
-			label: $.t("Tales of a Junktown Jerky Vendor (2/8)"),
+			label: $.t("Tales of a Junktown Jerky Vendor (4/8)"),
 			popup: $.t("better prices when buying from vendors for every issue | inside Longneck Lukowski's Cannery, near the Bobblehead")
-		}
-		
-		
-		],
+		},{
+			coords: [[-70.334,-77.563]],
+			label: $.t("Tales of a Junktown Jerky Vendor (5/8)"),
+			popup: $.t("better prices when buying from vendors for every issue | Big John's salvage, on the small table with the lantern, inside the caravan perched atop the containers, adjacent to the steamer trunk.")
+		},{
+			coords: [[-78.455,-38.496]],
+			label: $.t("Tales of a Junktown Jerky Vendor (6/8)"),
+			popup: $.t("better prices when buying from vendors for every issue | Wreck of the FMS Northern Star,  upper level, mid-deck, on the parasol table, north side of the ship.")
+		},{
+			coords: [[-67.221,-57.437]],
+			label: $.t("Tales of a Junktown Jerky Vendor (7/8)"),
+			popup: $.t("better prices when buying from vendors for every issue | Four Leaf fishpacking plant, basement locker room, on the bench, western side of the plant.")
+		},{
+			coords: [[-70.378,-59.106]],
+			label: $.t("Tales of a Junktown Jerky Vendor (8/8)"),
+			popup: $.t("better prices when buying from vendors for every issue | Gwinnett brewery, catwalk metal hut, upper level, along the northwest wall. Climb the pipes and catwalks to reach it.")
+		}],
 		
 	
 	// Spoils of War
