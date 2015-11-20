@@ -50,10 +50,6 @@ $.i18n.init(options, function() {
 								$('#results').empty();
 								$('#clear').hide();
 								$('#nav').show();
-							});
-						});
-					});
-				});
 			});
 		});
 	});
@@ -83,7 +79,8 @@ var processData = function(data) {
 	var mapKey = map_path.charAt(0);
 	$.each(data, function(markerType,markers) {
 		$.each(markers, function(index,marker) {
-			var link = window.location.href.replace(window.location.hash, '')+mapKey+'/#3/'+marker.coords[0][0]+'/'+marker.coords[0][1]+'/m='+marker.coords[0][0]+','+marker.coords[0][1];
+			var link = window.location.href.replace(window.location.hash, '')+'w/#5/'+marker.coords[0][0]+'/'+marker.coords[0][1]+'/m='+marker.coords[0][0]+','+marker.coords[0][1];
+			//var link = window.location.href.replace(window.location.hash, '')+mapKey+'/#3/'+marker.coords[0][0]+'/'+marker.coords[0][1]+'/m='+marker.coords[0][0]+','+marker.coords[0][1];
 			var popupText = marker.popup.replace(/<a\b[^>]*>/i,"").replace(/<\/a>/i, "");
 			var popupTitle = (marker.popupTitle ? marker.popupTitle : '' );
 			var label;

@@ -63,12 +63,7 @@ $(document).on("loadMapdata", function () {
 
 	// 20x Bobblehead
 	bobblehead: [{
-    coords: [[-18.271,-120.894]],
-			label: $.t("w:bobblehead.label"),
-			//label: $.t("+1 Perception Bobblehead"),
-			popup: $.t("Inside Museum of Freedom | On the room where you first meet Preston Garvey; on a desk next to a broken terminal.")
-		}, {
-			coords: [[-59.977,-146.514]],
+	coords: [[-59.977,-146.514]],
 			label: $.t("Energy Weapons Bobblehead"),
 			popup: $.t("increases critical damage with energy weapons by 25%. | Inside Fort Hagen - In the Command Center, southwest kitchens, on a small table between two fridges.")
 		}, {
