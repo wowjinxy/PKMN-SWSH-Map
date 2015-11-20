@@ -1,0 +1,85 @@
+{
+  "maps":{
+    "white_orchard":"Il Commonwealth"
+  },
+  "home":{
+    "tagline":"Mappa interrattiva di Fallout 4 non ufficiale <br>(Attualmente in fase di sviluppo)",
+    "resultsFound":"risultato(i) trovato(i).",
+    "searchPlaceholder":"Immettere termini da ricerca..."
+  },
+  "notes":{
+    "label":"Etichetta:",
+    "title":"Titolo:",
+    "note":"Nota:",
+    "enterLabel":"Immettere etichetta della mappa...",
+    "enterTitle":"Immettere titolo della nota...",
+    "enterText":"Immettere il testo della nota...",
+    "saveNote":"Salvare la nota",
+    "deleteNote":"Eliminare la nota"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Tornare alla pagina di selezione mappa",
+    "alchemy":"Riv: Manuale Operazioni Segrete",
+    "abandoned":"Luoghi",
+    "armourer":"Statuette",
+    "armourerstable":"Armatura Atomica",
+    "banditcamp":"Riv: Giornale di Chirurgia del Massachusets",
+    "barber":"Riv: Racconti incredibilmente straordinari",
+    "blacksmith":"Mag: Total Hack",
+    "brothel":"Riv: Manuale Operazioni Segrete",
+    "entrance":"Riv: Manuale Operazioni Segrete",
+    "grindstone":"Riv: Grognak il Barbaro",
+    "guarded":"Riv: Pistole e proiettili",
+    "gwent":"Riv: Hot Rod",
+    "harbor":"Mag: La Coiffe",
+    "herbalist":"Mag: Live Love",
+    "hidden":"Insediamenti",
+    "magwasteland":"Riv: Guida di Sopravvivenza nella Zona",
+    "monsternest":"Armi uniche",
+    "monsterden":"Mag: Picket Fences",
+    "notice":"Mag: Taboo Tattoos",
+    "pid":"Riv: Gli Inarrestabili",
+    "pop":"Mag: Tales of a Junktown Jerky Vendor",
+    "poi":"Kit di modelli robot",
+    "signpost":"Riv: RobCo Fun",
+    "shopkeeper":"Riv: Scassinatore moderno",
+    "smugglers":"Mag: Tales of a Junktown Jerky Vendor",
+    "masterlock":"Master Lock",
+    "masterterminal":"Master Terminal",
+    "magtesla":"Mag: Tesla Science Magazine",
+    "spoils":"Mag: Taboo Tattoos",
+    "quest":"Obiettivi vari",
+    "sidequest":"Missioni secondarie",
+    "nuke":"MiniNuke",
+    "powercore":"Nucleo di fusione"
+  },
+  "controls":{
+    "show":"Mostra tutto",
+    "hide":"Nascondi tutto",
+    "showCounts":"Mostra i conteggi",
+    "hideCounts":"Nascondi i conteggi",
+    "resetInvisible":"Azzera invisibili",
+    "resetInvisConfirm":"Questo ripristinerà tutti i marcatori invisibili\/tracciati al loro stato originale (visibili), sei sicuro?",
+    "hideMonsters":"Nascondi Mostri",
+    "showMonsters":"Mostra Mostri",
+    "helpFeatures":"Caratteristiche e aiuto",
+    "credits":"Crediti",
+    "backupSave":"Questo scaricherà una copia di backup di tutte le impostazioni della Mappa di Fallout 4.\n\nIl file verrà salvato come: __fileName__\n\nSei sicuro?",
+    "backupLoad":"Ripristina le impostazioni:",
+    "backupLoadSuccess":"Ripristino dei dati completo!",
+    "backupLoadFail":"Ripristino fallito, ricontrolla file",
+    "backupHtmlFail":"Ci dispiace. Ripristino non possibile. Questo browser non supporta API di file HTML5."
+  },
+  "credits":{
+    "botCreated":"Creato da __lordfiSh__, sotto licenza __license__",
+    "botHelp":"Con l'aiuto di __mcarver__, e altri __contributors__. Per l'intera lista di librerie Javascript utilizzate, __jsCredits__.",
+    "botAssets":"Logo di Fallout 4, icone, mappa &amp; testo sono proprietà di __cdpr__"
+  },
+  "misc":{
+    "contribute":"Lavori in corso! Aiuto apprezzato su __link__",
+    "discuss":"Feedback, suggerimenti? Discuti su __link__",
+    "helpTranslate":"Vuoi aiutare o migliorare le traduzioni?",
+    "portraitWarn":"Nota: la mappa è ottimizzata per la modalità orizzontale, tocca per chiudere",
+    "nsfwUndo":"Sei sicuro di voler tornare indietro?"
+  }
+}
