@@ -22,14 +22,14 @@ var options = {
 //i18n init to translate search results
 $.i18n.init(options, function() {
 	$(document).i18n();
-	$.i18n.loadNamespace('v', function() {
-		$.getScript("files/js/mapdata-velen.js").done(function(script, textStatus) {
-			$(document).trigger('loadMapdata');
-			$(document).unbind('loadMapdata');
-			$.i18n.loadNamespace('s', function() {
-				$.getScript("files/js/mapdata-skellige.js").done(function(script, textStatus) {
-					$(document).trigger('loadMapdata');
-					$(document).unbind('loadMapdata');
+	// $.i18n.loadNamespace('v', function() {
+		// $.getScript("files/js/mapdata-velen.js").done(function(script, textStatus) {
+			// $(document).trigger('loadMapdata');
+			// $(document).unbind('loadMapdata');
+			// $.i18n.loadNamespace('s', function() {
+				// $.getScript("files/js/mapdata-skellige.js").done(function(script, textStatus) {
+					// $(document).trigger('loadMapdata');
+					// $(document).unbind('loadMapdata');
 					$.i18n.loadNamespace('w', function() {
 						$.getScript("files/js/mapdata-f4.js").done(function(script, textStatus) {
 							$(document).trigger('loadMapdata');

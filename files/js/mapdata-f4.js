@@ -1127,6 +1127,7 @@ $(document).on("loadMapdata", function () {
 		markers.signpost,
 		markers.smugglers,
 		markers.spoils,
+		markers.sidequest,
 		markers.quest
 	];
 });
