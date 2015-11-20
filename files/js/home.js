@@ -50,8 +50,9 @@ $.i18n.init(options, function() {
 								$('#results').empty();
 								$('#clear').hide();
 								$('#nav').show();
-			});
-		});
+								})
+		});	
+		
 	});
 });
 
