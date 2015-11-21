@@ -1,10 +1,10 @@
 
 $(document).on("loadMapdata", function () {
 	window.map_path   = 'f4';
-	window.map_sWest  = L.latLng(-85, -180);
-	window.map_nEast  = L.latLng(0, 45);
-	window.map_center = [-65, -65];
-	window.map_mZoom  = 5;
+	window.map_sWest  = L.latLng(-100, -200);
+	window.map_nEast  = L.latLng(500, 200);
+	window.map_center = [20, 4];
+	window.map_mZoom  = 4;
 
 	processData({
 	// Abandoned Site
@@ -534,7 +534,7 @@ $(document).on("loadMapdata", function () {
 		}
 		],
 
-	// Brothel
+	// Covert Operations Manual (10/50)
 		brothel: [
 		{
 		coords: [[-3.689,-112.764]],
@@ -555,7 +555,7 @@ $(document).on("loadMapdata", function () {
 		}
 		],
 
-	// test: Covert Operations Manual (10/50)
+	// free
 		entrance: [],
 		
 	// Grindstone

@@ -1,7 +1,2 @@
-files/maps
-node_modules
-dist
-npm-debug.log
-.idea
-*.iml
+[Tt]humbs.db
 .DS_Store
