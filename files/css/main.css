@@ -608,6 +608,11 @@ i.smugglers { background-image:url('../img/icons/smugglers.png'); }
 i.quest { background-image:url('../img/icons/quest.png'); }
 i.sidequest { background-image:url('../img/icons/sidequest.png'); }
 i.spoils { background-image:url('../img/icons/spoils.png'); }
+
+i.location { background-image:url('../img/icons/location_.png'); }
+
+
+
 .leaflet-container {
 	background: #222;
 }

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fallout 4 Map - interactive map with Bobbleheads and more</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="description" content="multilanguage interactive Map with locations many locations including Bobbleheads, Misc. Objectives and Sidequests , Powerarmor, Settlements, Magazines, Unique Weapons and others. Track your Progress">
+	<meta name="keywords" content="FO4Map, Fallout Map, Fallout 4 Map, multilanguage, interactive Map, Bobbleheads, Misc. Objectives, Sidequests, Powerarmor, Settlements, Magazines, Unique Weapons, Progresstracker">
+	<link type="text/css" rel="stylesheet" href="../files/js/leaflet/leaflet.css">
+	<link type="text/css" rel="stylesheet" href="../files/css/main.css">
+	<link type="text/css" rel="stylesheet" href="../files/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="../files/img/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="../files/img/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="../files/img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="../files/img/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="../files/img/favicon-128.png" sizes="128x128" />
+	<script type="text/javascript" src="../files/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../files/js/i18next-1.9.0.min.js"></script>
+	<script type="text/javascript" src="../files/js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="../files/js/leaflet/leaflet.js"></script>
+	<script type="text/javascript" src="../files/js/leaflet.plugins.js"></script>
+	<script type="text/javascript" src="../files/js/leaflet-hash-params.js"></script>
+	<script type="text/javascript" src="../files/js/jquery.ddslick.min.js"></script>
+	
+	<!-- Open Graph-->
+	<meta property="og:title" content="Fallout 4 Interactive Map">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://fallout4map.de/w/">
+	<meta property="og:image" content="http://fallout4map.de/files/img/preview.jpg">
+	<meta property="og:description" content="multilanguage interactive Map with locations many locations including Bobbleheads, Misc. Objectives and Sidequests , Powerarmor, Settlements, Magazines, Unique Weapons and others. Track your Progress">
+	
+	<!-- Facebook -->
+	<meta property="fb:app_id" content="1493878937583895">
+	
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:creator" content="@lifeblogv3">
+	<meta name="twitter:title" content="Fallout 4 Interactive Map">
+	<meta name="twitter:description" content="All locations including Bobbleheads, Powerarmor, Misc. Objectives and Sidequests Locations, Settlements, Magazines, Uniqe Weapons and other Locations. Create own Markers and check Items as collected">
+	<meta name="twitter:image" content="http://fallout4map.de/files/img/preview.jpg">
+	
+	<!-- Android/Chrome, Windows und iOS -->
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="../files/img/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../files/img/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../files/img/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../files/img/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="../files/img/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../files/img/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../files/img/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../files/img/apple-touch-icon-152x152.png" />
+
+	<meta name="application-name" content="Fallout 4 Map"/>
+	<meta name="msapplication-TileColor" content="#1db534"/>
+	<meta name="msapplication-square70x70logo" content="http://fallout4map.de/files/img/tiny.png"/>
+	<meta name="msapplication-square150x150logo" content="http://fallout4map.de/files/img/square.png"/>
+	<meta name="msapplication-wide310x150logo" content="http://fallout4map.de/files/img/wide.jpg"/>
+	<meta name="msapplication-square310x310logo" content="http://fallout4map.de/files/img/large.jpg"/>
+	
+	<meta name="theme-color" content="#517540">
+	<link rel="manifest" href="http://fallout4map.de/manifest.json">
+	<link rel="mask-icon" href="http://fallout4map.de/files/img/safari-pinned-tab.svg" color="#5bbad5">
+
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-70097093-1', 'auto');
+	ga('send', 'pageview');
+
+	</script>
+	</head>
+	
+	<body>
+		<div id="sidebar">
+			<div id="sidebar-wrap">
+			<a href="../" data-i18n="[title]sidebar.returnToMapSelection" title="Return to Map Selection"><div id="logo"></div></a>
+			<ul class="key">
+					<li><i class="location"></i><div data-i18n="sidebar.location">Locations</div></li>
+					<li><i class="sidequest"></i><div data-i18n="sidebar.sidequest">Side Quests</div></li>
+					<li><i class="quest"></i><div data-i18n="sidebar.quest">Misc Quests</div></li>
+					<li><i class="bobblehead"></i><div data-i18n="sidebar.bobblehead">Bobblehead</div></li>
+					<li><i class="armourerstable"></i><div data-i18n="sidebar.armourerstable">Powerarmor</div></li>
+					<li><i class="hidden"></i><div data-i18n="sidebar.hidden">Settlements</div></li>
+					<li><i class="monsternest"></i><div data-i18n="sidebar.monsternest">Unique Weapons</div></li>
+					<li><i class="poi"></i><div data-i18n="sidebar.poi">Robot Model Kits</div></li>
+					<!--<li><i class="masterterminal"></i><div data-i18n="sidebar.masterterminal">Master Terminal</div></li>-->
+					<li><i class="masterlock"></i><div data-i18n="sidebar.masterlock">Master Lock</div></li>
+					<!--<li><i class="nukefusion"></i><div data-i18n="sidebar.nukefusion">Nuke/Fusion Core</div></li>-->
+					<!-- Nukes-->
+					<!-- Powercore -->
+					<li><i class="banditcamp"></i><div data-i18n="sidebar.banditcamp">Mag: Surgical Journal</div></li>
+					<li><i class="blacksmith"></i><div data-i18n="sidebar.blacksmith">Mag: Total Hack</div></li>
+					<li><i class="brothel"></i><div data-i18n="sidebar.brothel">Mag: Covert Operations Manual</div></li>
+					<li><i class="barber"></i><div data-i18n="sidebar.barber">Mag: Astoundingly Awesome Tales</div></li>
+					<li><i class="grindstone"></i><div data-i18n="sidebar.grindstone">Mag: Grognak the Barbarian</div></li>
+					<li><i class="guarded"></i><div data-i18n="sidebar.guarded">Mag: Guns and Bullets</div></li>
+					<li><i class="gwent"></i><div data-i18n="sidebar.gwent">Mag: Hot Rodder</div></li>
+					<li><i class="harbor"></i><div data-i18n="sidebar.harbor">Mag: La Coiffe</div></li>
+					<!--<li><i class="magtesla"></i><div data-i18n="sidebar.magtesla">Mag: Tesla Science Magazine</div></li>-->
+					<li><i class="herbalist"></i><div data-i18n="sidebar.herbalist">Mag: Live Love</div></li>
+					<li><i class="monsterden"></i><div data-i18n="sidebar.monsterden">Mag: Picket Fences</div></li>
+					<!--<li><i class="notice"></i><div data-i18n="sidebar.notice">Mag: Taboo Tattoos</div></li>-->
+					<li><i class="signpost"></i><div data-i18n="sidebar.signpost">Mag: RobCo Fun</div></li>
+					<!--<li><i class="spoils"></i><div data-i18n="sidebar.spoils">Mag: Taboo Tattoos</div></li>-->
+					<li><i class="smugglers"></i><div data-i18n="sidebar.smugglers">Mag: Tales of a Junktown Jerky Vendor</div></li>
+					<!--<li><i class="Shopkeeper"></i><div data-i18n="sidebar.Shopkeeper">Mag: Tumblers Today</div></li>-->
+					<!--<li><i class="pop"></i><div data-i18n="sidebar.pop">Mag: Tales of a Junktown Jerky Vendor</div></li>-->
+					<!--<li><i class="pid"></i><div data-i18n="sidebar.pid">Mag: Unstoppables</div></li>-->
+					<li><i class="magwasteland"></i><div data-i18n="sidebar.magwasteland">Mag: Wasteland Survival Guide</div></li>
+				</ul>
+				
+				<ul class="key controls">
+					<li style="display:none;" id="show-all"><i class="fa fa-eye"></i><div data-i18n="controls.show">Show All</div></li>
+					<li id="hide-all"><i class="fa fa-eye-slash"></i><div data-i18n="controls.hide">Hide All</div></li>
+					<li style="display:none;" id="show-counts"><i class="fa fa-check-square"></i><div data-i18n="controls.showCounts">Show Counts</div></li>
+					<li id="hide-counts"><i class="fa fa-square"></i><div data-i18n="controls.hideCounts">Hide Counts</div></li>
+					<li id="reset-tracking"><i class="fa fa-eraser"></i><div data-i18n="controls.resetInvisible">Reset Invisible</div></li>
+					<li><a href="https://wiiare.in/17442-fallout-4-map/" target="_blank"><i class="fa fa-info-circle"></i><div data-i18n="controls.helpFeatures">Features &amp; Help</div></a></li>
+					<li class="credits"><i class="fa fa-copyright"></i><span data-i18n="controls.credits">Credits</span></li>
+					<li></li>
+				</ul>
+				
+				<div id="note">
+					<b>work in progress </b> - <a href="https://www.reddit.com/r/Fallout/comments/3sql3m/new_interactive_map_of_fallout_4_settlements/" target="_blank">help out <img src="http://fallout4map.de/files/img/reddit.png"></a> <a href="https://github.com/lordfiSh/fallout4map.de" target="_blank">github</a> & <a href="https://crowdin.com/project/fallout4mapde" target="_blank">translation</a>
+					 <br><i><a title="backup data (left disk icon), if you use the progress tracker!">clear cookies if the page seems broken!</i>
+				</div>
+				
+				<div id="lang">
+					<div id="lang-switcher"></div>
+					
+				</div>
+				<br><center>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+					<!-- fallout4map.de-nonresponsive -->
+					<ins class="adsbygoogle"
+						 style="display:inline-block;width:320px;height:100px"
+						 data-ad-client="ca-pub-8651372317628465"
+						 data-ad-slot="3847377816"></ins>
+					<script>
+					(adsbygoogle = window.adsbygoogle || []).push({});
+					</script>
+					<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			</center>
+			
+			</div>
+			
+			<div id="copyright">
+			<ul class="share-buttons">
+					  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffallout4map.de%2Fw&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="../files/img/Facebook.png"></a></li>
+					  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Ffallout4map.de%2Fw&text=:%20http%3A%2F%2Ffallout4map.de%2Fw&via=lifeblogv3" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="../files/img/Twitter.png"></a></li>
+					  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Ffallout4map.de%2Fw" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><img src="../files/img/Google+.png"></a></li>
+					  <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=wst%2elordfish%40gmail%2ecom&lc=DE&item_name=fallout4map%2ede&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest" target="_blank" title="send me beer "><img src="../files/img/paypal.png"></a></li>
+					</ul>
+
+				<span data-i18n="[html]credits.botCreated" data-i18n-options='{"lordfiSh":"<a href=\"https://wiiare.in\" target=\"_blank\">lordfiSh</a>","license":"<a href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\" target=\"_blank\">CC BY-NC-SA</a>"}'>Created by <a href="https://wiiare.in" target="_blank">lordfiSh</a></span>
+				<span data-i18n="[html]credits.botAssets" data-i18n-options='{"cdpr":"<a href=\"http://bethsoft.com/\" target=\"_blank\">Bethesda Softworks</a>"}'>licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a>. <br> Fallout 4 logo, icons, map &amp; text are the property of <a href="http://bethsoft.com/de-de" target="_blank">Bethesda Softworks</a></span>
+			</div>
+		</div>
+		
+	</body>
+	<div id="sidebar-border"></div>
+	<div id="hide-sidebar"></div>
+	<div id="warn" data-i18n="misc.portraitWarn"></div>
+	<div id="info-wrap"><div id="info-fade-intro"></div><div id="info"></div><div id="info-fade-outro"></div></div>
+	<div id="map"><!--<div id="title">rework </div><--></div>
+	
+	<script type="text/javascript" src="../files/js/shared.js"></script>
+	<script type="text/javascript" src="../files/js/mapdata-commonwealth.js"></script>
+	<script type="text/javascript" src="../files/js/custom.js"></script>
+	<script type="text/javascript" src="../files/js/lang.js"></script>
+
+</html>

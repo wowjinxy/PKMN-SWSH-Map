@@ -1,0 +1,80 @@
+{
+		"location": {
+		"label": {
+			"behemoth": "Giant Creature - Level 50 Behemoth",
+			"swain": "Giant Creature - Level 50 Swain",
+			"vault75": "Vault 75",
+			"vault114": "Vault 114",
+			"vault95": "Vault 95",
+			"vault110": "Vault 110",
+			"vault114": "Vault 114",
+			"vault81": "Vault 75"
+		},
+		"desc": {
+			"behemoth": "for the <a href=\"https://wiiare.in/portfolio-type/fallout-4-giant-creatures\" target=\"_blank\">...The Harder They Fall Achievement/Trophy</a>",
+			"vault75": "Access via Malden Middle School",
+			"vault81": "",
+			"vault95": "",
+			"vault110": "",
+			"vault114": ""
+
+		}
+	},
+		"powerarmor": {
+		"label": {
+			"powerarmor": "Power Armor"
+		},
+		"desc": {
+			"powerarmor": ""
+
+		}
+	},
+	
+	"bobblehead": {
+		"label": {
+			"EnergyWeaponsBobblehead": "Energy Weapons Bobblehead",
+			"BigGunsBobblehead": "Big Guns Bobblehea",
+			"SmallGunsBobblehead": "Small Guns Bobblehead",
+			"Endurance": "+1 Endurance Bobblehead",
+			"Unarmed": "Unarmed Bobblehead",
+			"Agility": "+1 Agility Bobblehead",
+			"Luck": "+1 Luck Bobblehead",
+			"Repair": "+1 Repair Bobblehead",
+			"Science": "Science Bobblehead",
+			"Charisma": "+1 Charisma Bobblehead",
+			"Sneak": "Sneak Bobblehead",
+			"Barter": "Barter Bobblehead",
+			"Explosives": "Explosives Bobblehead",
+			"Lock": "Lock Picking Bobblehead",
+			"Strength": "+1 Strength Bobblehead",
+			"Speech": "Speech Bobblehead",
+			"Melee": "Melee Bobblehead",
+			"Intelligence": "+1 Intelligence Bobblehead",
+			"Perception": "+1 Perception Bobblehead",
+			"Medicine": "Medicine Bobblehead"
+		},
+		"desc": {
+			"EnergyWeaponsBobblehead": "increases critical damage with energy weapons by 25%. | Inside Fort Hagen - In the Command Center, southwest kitchens, on a small table between two fridges.",
+			"BigGunsBobblehead": "increases 25% critical damage with heavy weapons | Inside Vault 95 - bottom Level, North Room",
+			"SmallGunsBobblehead": "increases 25% critical damage with Small weapons | Gunners Plaza - Ground Floor, in the on-air room. You get the Key from a Guy in the top Floor",
+			"Endurance": "Poseidon Energy - On the metal desk with a magazine, near steamer trunk, central metal catwalk.",
+			"Unarmed": "increases 25% critical damage with Unarmed attacks | Atom Cats Garage - On the hood of the rusty car in the main warehouse.",
+			"Luck": "Spectacle Island - in the green boat, inside a locker on the top floor",
+			"Repair": "increases the duration of fusion cores by 10% | Lexington Corvega Assembly Plant - On the very end of the top exterior ganty (blue ballon), southwest roof section of the plant building.",
+			"Science": "gives you an extra guess when hacking terminals | inside Malden Middle School/Vault 75 - Follow the Quest Vault 75, in the Room with the Guy that has the Admin Access Card you find the Bobblehread",
+			"Charisma": "Parsons State Insane Aslyum. (<a href=\"http://localhost/fallout4map.de/w/index.html#4/-61.59/-74.66/m=-55.9,-68.247\" target=\"_blank\">get the Quest The Secret of Cabot House from </a> go get in) - On Jack Cabots office desk, close to elevator, administration area.",
+			"Sneak": "10% Harder to detect | Dunwich Borers | at the Terminal at Mine Shaft Nr 4",
+			"Barter": "Prices are 5% better.Longneck Lukowski's Cannery - Control Room above the Factoryline",
+			"Explosives": "Explosives deal 15% more damage | inside Saugus Ironworks [<a href=\"https://youtu.be/MhEmt_ruN_Y?t=116\" target=\"_blank\">Video</a>]",
+			"Lock": "Lock picking becomes easier | Pickman Gallery - On the ground between the brick pillars in the last tunnel chamber.",
+			"Strength": "Mass Fusion Building - On the metal wall sculpture high above the lobby desk.[<a href=\"http://i.imgur.com/b292oo1.jpg\" target=\"_blank\">Image</a>]",
+			"Speech": "All vendors permanently have 100 more Caps for bartering | Vault 114 - In the Overseer's office.",
+			"Melee": "+25% Critical Hit Damage with Melee Weapons | Trinity Tower - On a table in the cage where Rex Goodman and Strong are being held.",
+			"Intelligence": "Boston Public Library - 2nd Floor - On the computer bank, mechanical room, northwest corner of library.",
+			"Medicine": "Stimpacks heal 10% more damage | Vault 81 - talk to Dr. Jacobs Forsythe in the Clinic at the Botton of the Vault, then come later back for a next Quest",
+			"Perception": "Museum of Freedom, in the room with the Minutemen. Next to a broken terminal",
+			"Agility": "Wreck of the FMS Northern Star - top of the Ship, on the edge of the woodn platfrom [<a href=\"http://i.imgur.com/LjLnavk.png\" target=\"_blank\">Image</a>]"
+
+		}
+	}
+}

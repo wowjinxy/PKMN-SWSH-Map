@@ -1,6 +1,7 @@
 {
 	"maps": {
-		"white_orchard": "The Commonwealth"
+		"white_orchard": "The Commonwealth",
+		"commonwealth": "The Commonwealth v2"
 	},
 	"home": {
 		"tagline": "Unofficial Fallout 4 Interactive Map <br>(Currently under development)",
@@ -22,7 +23,7 @@
 		"alchemy": "Mag: Covert Operations Manual",
 		"abandoned": "Locations",
 		"armourer": "Bobbleheads",
-		"armourerstable": "Powerarmor",
+		"powerarmor": "Powerarmor",
 		"banditcamp": "Mag: Surgical Journal",
 		"barber": "Mag: Astoundingly Awesome Tales",
 		"blacksmith": "Mag: Total Hack",

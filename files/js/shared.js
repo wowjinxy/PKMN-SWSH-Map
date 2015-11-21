@@ -104,8 +104,14 @@ $(document).on("loadShared", function () {
 		iconSize : [20, 30]
 	});
 
+	//del 
 	icons.abandoned = L.icon({
 		iconUrl  : '../files/img/icons/abandoned.png',
+		iconSize : [24, 35]
+	});
+	
+	icons.location = L.icon({
+		iconUrl  : '../files/img/icons/location_.png',
 		iconSize : [24, 35]
 	});
 
@@ -119,10 +125,16 @@ $(document).on("loadShared", function () {
 		iconSize : [24, 34]
 	});
 
+	//del
 	icons.armourerstable = L.icon({
 		iconUrl  : '../files/img/icons/armourerstable.png',
 		iconSize : [30, 27]
 	});
+	
+	// icons.powerarmor = L.icon({
+		// iconUrl  : '../files/img/icons/powerarmor_.png',
+		// iconSize : [30, 27]
+	// });
 
 	icons.banditcamp = L.icon({
 		iconUrl  : '../files/img/icons/banditcamp.png',
