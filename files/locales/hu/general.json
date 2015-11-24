@@ -1,0 +1,88 @@
+{
+  "maps":{
+    "white_orchard":"A Nemzetközösség"
+  },
+  "home":{
+    "tagline":"Nem hivatalos interaktív Fallout 4 térkép <br>(Jelenleg fejlesztés alatt)",
+    "resultsFound":"találat.",
+    "searchPlaceholder":"Írd be a keresőkifejezéseket..."
+  },
+  "notes":{
+    "label":"Címke:",
+    "title":"Cím:",
+    "note":"Megjegyzés:",
+    "enterLabel":"Írd be a térkép címkéjét...",
+    "enterTitle":"Írd be a megjegyzés címét...",
+    "enterText":"Írd be a megjegyzés szövegét...",
+    "saveNote":"Megjegyzés mentése",
+    "deleteNote":"Megjegyzés törlése"
+  },
+  "sidebar":{
+    "returnToMapSelection":"Visszatérés a térkép-választó oldalra",
+    "alchemy":"Mag: Titkos műveletek kézikönyve",
+    "abandoned":"Helyek",
+    "armourer":"Bobbleheads",
+    "armourerstable":"Powerarmor",
+    "banditcamp":"Mag: Sebészeti Folyóirat",
+    "barber":"Mag: Elképesztően döbbenetes mesék",
+    "blacksmith":"Mag: Teljes Hack",
+    "brothel":"Mag: Titkos műveletek kézikönyve",
+    "loveInterest":"Szerelme",
+    "entrance":"Mag: Titkos műveletek kézikönyve",
+    "grindstone":"Mag: Grognak a barbár",
+    "guarded":"Mag: Fegyverek és Golyók",
+    "gwent":"Mag: Hot Rodder",
+    "harbor":"Mag: La Coiffe",
+    "herbalist":"Mag: Élet és Szerelem",
+    "hidden":"Települések",
+    "magwasteland":"Mag: Pusztaság Túlélési Útmutató",
+    "monsternest":"Egyedi fegyverek",
+    "monsterden":"Mag: Előőrs kerítése",
+    "notice":"Mag: Tabu tetoválások",
+    "pid":"Mag: Megállíthatatlanok",
+    "pop":"Mag: Junktown Jerky Vendor meséi",
+    "poi":"Robot modell készletek",
+    "signpost":"Mag: RobCo Fun",
+    "shopkeeper":"Mag: Szárítógépek ma",
+    "smugglers":"Mag: Junktown Jerky Vendor meséi",
+    "masterlock":"Mester zár",
+    "masterterminal":"Fő terminál",
+    "magtesla":"Mag: Tesla Tudományos Magazin",
+    "spoils":"Mag: Tabu tetoválások",
+    "quest":"Egyéb célok",
+    "sidequest":"Mellékküldetések",
+    "nuke":"Mini Atombomba",
+    "powercore":"Fúziós Mag"
+  },
+  "controls":{
+    "show":"Összes mutatása",
+    "hide":"Összes elrejtése",
+    "showCounts":"Számláló mutatása",
+    "hideCounts":"Számláló elrejtése",
+    "resetInvisible":"Láthatatlanok visszaállítása",
+    "resetInvisConfirm":"Minden láthatatlan\/követett jelölőt visszaállít az alapállapotukra (láthatóra), biztosan ezt akarod?",
+    "hideMonsters":"Szörnyek elrejtése",
+    "showMonsters":"Szörnyek mutatása",
+    "helpFeatures":"Funkciók és segítség",
+    "credits":"Kreditek",
+    "backupSave":"Az összes Fallout 4 térkép beállításod biztonsági másolata le fog töltődni.\n\nFájlnév: __fileName__\n\nBiztos vagy benne?",
+    "backupLoad":"Beállításaid visszaállítása:",
+    "backupLoadSuccess":"Adat visszaállítás befejeződött!",
+    "backupLoadFail":"A visszaállítás sikertelen, duplán ellenőrizd a fájlt",
+    "backupHtmlFail":"Sajnos a visszaállítás nem lehetséges. Ez a böngésző nem támogatja a HTML5 Fájl APIt."
+  },
+  "credits":{
+    "botCreated":"Készítette __lordfiSh__, __license__ lincenc alatt",
+    "botHelp":"__mcarver__ és más __contributors__ segítségével. A használt javascript könyvtárak teljes listájáért: __jsCredits__.",
+    "botAssets":"A Fallout 4 logó, az ikonok, a térkép és a szöveg a __cdpr__ tulajdona"
+  },
+  "misc":{
+    "contribute":"A munka folyamatban van! Köszönjük a segítséget itt: __link__",
+    "discuss":"Visszajelzés, javaslat? Vitasd meg itt: __link__",
+    "helpTranslate":"Szeretnél segíteni vagy javítani a fordítást?",
+    "portraitWarn":"Megjegyzés: a térkép fekvő módban nyújtja a legjobb élményt, érintsd meg az eltüntetéshez",
+    "loveInterestDesc":"Ismerd meg a szerelmedet itt",
+    "nsfwConfirm":"Lecseréli a „Bordélyház”-t „Szerelme”-re, biztos vagy benne?",
+    "nsfwUndo":"Biztosan vissza akarsz menni?"
+  }
+}

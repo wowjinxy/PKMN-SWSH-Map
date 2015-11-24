@@ -124,8 +124,6 @@ $(document).on("loadShared", function () {
 		iconUrl  : '../files/img/icons/bobblehead.png',
 		iconSize : [24, 34]
 	});
-	
-
 
 	//del
 	icons.armourerstable = L.icon({
