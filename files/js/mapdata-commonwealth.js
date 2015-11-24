@@ -61,85 +61,85 @@ $(document).on("loadMapdata", function () {
 	// todo, mags missing?
 		alchemy: [],
 
-	// 20x Bobblehead todo missing one?
+	// 20x Bobblehead
 	bobblehead: [{
-	coords: [[-59.977,-146.514]],
+	coords: [[-7.885,-122.695]],
 			label: $.t("c:bobblehead.label.EnergyWeaponsBobblehead"),
 			popup: $.t("c:bobblehead.desc.EnergyWeaponsBobblehead")
 		}, {
-			coords: [[-78.144,-116.455]],
+			coords: [[-65.513,-80.859]],
 			label: $.t("c:bobblehead.label.BigGunsBobblehead"),
 			popup: $.t("c:bobblehead.desc.BigGunsBobblehead")
 		}, {
-			coords: [[-77.118,-91.934]],
+			coords: [[-62.145,-44.912]],
 			label: $.t("c:bobblehead.label.SmallGunsBobblehead"),
 			popup: $.t("c:bobblehead.desc.SmallGunsBobblehead")
 		}, {
-			coords: [[-79.005,-51.680]],
+			coords: [[-67.709,14.326]],
 			label: $.t("c:bobblehead.label.Endurance"),
 			popup: $.t("c:bobblehead.desc.Endurance")
 		}, {
-			coords: [[-75.995,-53.877]],
+			coords: [[-58.995,12.041]],
 			label: $.t("c:bobblehead.label.Unarmed"),
 			popup: $.t("c:bobblehead.desc.Unarmed")
 		}, {
-			coords: [[-78.242,-37.529]],
+			coords: [[-67.407,36.387]],
 			label: $.t("c:bobblehead.label.Agility"),
 			popup: $.t("c:bobblehead.desc.Agility")
 		}, {
-			coords: [[-76.331,-25.005]],
+			coords: [[-58.995,52.910]],
 			label: $.t("c:bobblehead.label.Luck"),
 			popup: $.t("c:bobblehead.desc.Luck")
 		}, {
-			coords: [[-44.024,-106.436]],
+			coords: [[30.221,-65.830]],
 			label: $.t("c:bobblehead.label.Repair"),
 			popup: $.t("c:bobblehead.desc.Repair")
 		}, {
-			coords: [[-25.800,-67.896]],
+			coords: [[53.593,-8.262]],
 			label: $.t("c:bobblehead.label.Science"),
 			popup: $.t("c:bobblehead.desc.Science")
 		}, {
-			coords: [[-4.390,-43.066]],
+			coords: [[69.809,27.070]],
 			label: $.t("c:bobblehead.label.Charisma"),
 			popup: $.t("c:bobblehead.desc.Charisma")
 		}, {
-			coords: [[-15.708,-33.750]],
+			coords: [[62.553,39.990]],
 			label: $.t("c:bobblehead.label.Sneak"),
 			popup: $.t("c:bobblehead.desc.Sneak")
 		}, {
-			coords: [[-27.372,-24.346]],
+			coords: [[51.890,55.459]],
 			label: $.t("c:bobblehead.label.Barter"),
 			popup: $.t("c:bobblehead.desc.Barter")
 		}, {
-			coords: [[-27.059,-42.363]],
+			coords: [[53.749,27.334]],
 			label: $.t("c:bobblehead.label.Explosives"),
 			popup: $.t("c:bobblehead.desc.Explosives")
 		}, {
-			coords: [[-55.553,-61.172]],
+			coords: [[5.791,2.197]],
 			label: $.t("c:bobblehead.label.Lock"),
 			popup: $.t("c:bobblehead.desc.Lock")
 		}, {
-			coords: [[-59.557,-69.324]],
+			coords: [[-5.791,-10.898]],
 			label: $.t("c:bobblehead.label.Strength"),
 			popup: $.t("c:bobblehead.desc.Strength")
 		}, {
-			coords: [[-63.646,-75.278]],
+			coords: [[-17.644,-19.424]],
 			label: $.t("c:bobblehead.label.Speech"),
 			popup: $.t("c:bobblehead.desc.Speech")
 		}, {
-			coords: [[-65.857,-78.223]],
+			coords: [[-24.847,-25.049]],
 			label: $.t("c:bobblehead.label.Melee"),
 			popup: $.t("c:bobblehead.desc.Melee")
 		}, {
-			coords: [[-64.567,-85.122]],
+			coords: [[-21.371,-33.574]],
 			label: $.t("c:bobblehead.label.Intelligence"),
 			popup: $.t("c:bobblehead.desc.Intelligence")
 		}, {
-			coords: [[-65.513,-107.93]],
+			coords: [[-22.837,-65.127]],
 			label: $.t("c:bobblehead.label.Medicine"),
 			popup: $.t("c:bobblehead.desc.Medicine")
 		}, {
-			coords: [[-18.188,-120.806]],
+			coords: [[59.579,-86.045]],
 			label: $.t("c:bobblehead.label.Perception"),
 			popup: $.t("c:bobblehead.desc.Perception")
 		}],
@@ -297,52 +297,61 @@ $(document).on("loadMapdata", function () {
 	//Tesla Science Magazine 9x
 	// Inside Reeb Marina -39.130,-39.331
 // https://i.imgur.com/7bjh4fe.jpg -79.319,-52.295	
-	magtesla: [
-	// {
-    //coords: [[-39.130,-39.331]],
-	//		label: $.t("Tesla Science Magazine (1/9)"),
-	//		popup: $.t("Inside Reeb Marina")
-	//	}
-		],	
+
+// Tesla Science Magazine
+magtesla: [
+
+		//label: $.t("c:Magazines.label.Tesla") + $.t(" 1/9 - ") + $.t("c:Magazines.label.Tesla-9"),
+		//popup: $.t("c:Magazines.desc.Tesla")+ $.t("c:Magazines.desc.Tesla-1-9"),
+	],	
+
+// TODO Taboo Tattoos
+//magtesla: [
+
+		//label: $.t("c:Magazines.label.Taboo") + $.t(" 1/16 - ") + $.t("c:Magazines.label.Taboo-16"),
+		//popup: $.t("c:Magazines.desc.Taboo-1-16"),
+//	],	
+		
+
 		
 		
-	//Tesla
-	// -61.815,-77.563 inside HalluciGen
+		
+		
 	
 	//SideQuest
 	 sidequest: [
 		 {
 		coords: [[-27.098,-119.575]],
-		label: $.t("Drumlin Diner - Order Up"),
-		 popup: $.t('Side Quest Location')
+		label: $.t("c:sidequest.lable.Drumlin"),
+		popup: $.t("c:sidequest.desc.siqequestlocation"),
 		}, {
 		coords: [[-65.513,-92.021]],
 		label: $.t("Diamond City"),
-		 popup: $.t('Side Quest Location: The Gilded Grasshopper, Long Time Coming, The Disappearing Act, Painting the Town')
+		popup: $.t("c:sidequest.desc.Diamond"),
 		}, {
 		coords: [[-64.755,-100.67]],
 		label: $.t("Chestnut Hillock Reservoir - Here Kitty, Kitty"),
-		 popup: $.t('Side Quest Location - you need to have visited <a href="http://fallout4map.de/w/index.html#5/-64.216/-89.495/w=-64.737,-100.195&m=-65.257,-107.139">Vault 81</a> already')
+		popup: $.t("c:sidequest.desc.Chestnut"),
 		},{
 		coords: [[-17.015,-47.769]],
 		label: $.t("The Slog"),
-		 popup: $.t('Side Quest Location')
+		popup: $.t("c:sidequest.desc.siqequestlocation"),
 		},{
 		coords: [[-61.207,-75.586]],
 		label: $.t("The Silver Shroud"),
-		 popup: $.t('Side Quest Location - lissen to Radio')
+		popup: $.t("c:sidequest.desc.silver"),
 		},{
 		coords: [[-56.292,-67.061]],
 		label: $.t("The Cabot House"),
-		 popup: $.t('Side Quest Location')
+		popup: $.t("c:sidequest.desc.siqequestlocation"),
 		},{
 		coords: [[-14.520,-20.830]],
 		label: $.t("Museum of Witchcraft"),
-		 popup: $.t('Side Quest Location')
+		popup: $.t("c:sidequest.desc.siqequestlocation"),
 		},{
 		coords: [[-60.392,-68.071]],
 		label: $.t("Goodneighbor"),
-		 popup: $.t('Side Quest Location')
+		popup: $.t("c:sidequest.desc.siqequestlocation"),
 		}
 		
 		],
@@ -353,124 +362,125 @@ $(document).on("loadMapdata", function () {
 		 quest: [
 		 {
 		coords: [[-50.261,-67.456]],
-		label: $.t("Bunker Hill"),
-		  popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.bunker"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-76.258,-54.580]],
-		label: $.t("Atom Cats Garage"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Atom"),
+		//label: $.t("Atom Cats Garage"),
+		 popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-58.078,-101.733]],
-		label: $.t("Cambridge Polymer Labs"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Cambridge"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-59.911,-76.421]],
-		label: $.t("Charles View Amphitheater"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Amphitheater"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		// coords: [[-64.849,-100.767]],
 		// label: $.t("Chestnut Hillock Reservoir"),
-		// popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		//popup: $.t("c:miscquest.desc.popup"),
 		
 		coords: [[-64.737,-72.378]],
-		label: $.t("Combat Zone"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Combat"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-65.531,-88.638]],
-		label: $.t("Diamond City"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Diamond"),
+		popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-15.538,-32.651]],
 		// label: $.t("Dunwich Borers"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-74.295,-105.205]],
 		// label: $.t("Egret Tours Marina"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-64.886,-97.822]],
 		// label: $.t("Fens Street Sewer"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-68.673,-54.492]],
 		// label: $.t("General Atomics Factory"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-8.668,-76.113]],
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// label: $.t("General Atomics Galleria"),
 		},{
 		coords: [[-60.609,-69.390]],
-		label: $.t("Goodneighbor"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Goodneighbor"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-50.261,-115.708]],
-		label: $.t("Graygarden"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Graygarden"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		// coords: [[-61.773,-78.311]],
 		// label: $.t("HalluciGen"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		coords: [[-74.355,-73.169]],
-		label: $.t("Jamaica Plain"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Jamaica"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-27.800,-26.675]],
-		label: $.t("Longneck Lukowski Carnery"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Longneck"),
+		popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-27.800,-26.675]],
 		// label: $.t("Longneck Lukowski Carnery"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-55.404,-62.930]],
 		// label: $.t("Pickman Gallery"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-59.911,-42.056]],
-		label: $.t("Prydwen (if Airfield not destoryed)"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Prydwen"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-83.844,-167.256]],
-		label: $.t("Rocky Cave"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.RockyCave"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-7.537,-12.700]],
-		label: $.t("Rook Family House"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Rook"),
+		popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-11.738,-86.045]],
 		// label: $.t("Skylanes Flight 1981"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-17.225,-45.132]],
-		label: $.t("The Slog"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Slog"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-26.274,-66.270]],
-		label: $.t("Vault 75"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Vault75"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},{
 		coords: [[-65.257,-107.139]],
-		label: $.t("Vault 81"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Vault81"),
+		popup: $.t("c:miscquest.desc.popup"),
 		},// ,{
 		// coords: [[-76.911,-40.342]],
 		// label: $.t("Warwick Homestead"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		// coords: [[-22.877,-144.624]],
 		// label: $.t("Wicked Shipping Fleet Lockup"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		{
 		// coords: [[-55.949,-82.793]],
 		// label: $.t("Greenetech Genetics"),
-		 // popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		 //popup: $.t("c:miscquest.desc.popup"),
 		// },{
 		coords: [[-6.337,-139.109]],
-		label: $.t("Sanctuary"),
-		 popup: $.t('Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href="https://wiiare.in/?post_type=portfolio-type&p=17468" target="_blank">all here</a>')
+		label: $.t("c:miscquest.label.Sanctuary"),
+		popup: $.t("c:miscquest.desc.popup"),
 		}
 		],
 
@@ -479,44 +489,46 @@ $(document).on("loadMapdata", function () {
 	// Surgical Journal 10/50
 	banditcamp: [{
     coords: [[-5.791,-41.880]],
-			label: $.t("Massachusetts Surgical Journal (1/9)"),
-			popup: $.t("weapon inflict +2% limb damage | Parsons State Insane Asylum, Inside Lorenzo’s living quarters, at the very bottom floor of the facility.")
+			//label: $.t("Massachusetts Surgical Journal (1/9)"),
+			//popup: $.t("weapon inflict +2% limb damage | Parsons State Insane Asylum, Inside Lorenzo’s living quarters, at the very bottom floor of the facility.")
+			label: $.t("c:Magazines.label.SurgicalJournal") + $.t(" 1/9 - ") + $.t("c:Magazines.label.SurgicalJournal1-9"),
+			popup: $.t("c:Magazines.desc.SurgicalJournal") + $.t(" | ") + $.t("c:Magazines.desc.SurgicalJournal-1-9"),
 		},{
     coords: [[-25.006,-74.619]],
-			label: $.t("Massachusetts Surgical Journal (3/9)"),
-			popup: $.t("weapon inflict +2% limb damage")
+			label: $.t("c:Magazines.label.SurgicalJournal") + $.t(" 3/9 - ") + $.t("c:Magazines.label.SurgicalJournal3-9"),
+			popup: $.t("c:Magazines.desc.SurgicalJournal") + $.t(" | ") + $.t("c:Magazines.desc.SurgicalJournal-3-9"),
 		},{
     coords: [[-55.900,-68.247]],
-			label: $.t("Massachusetts Surgical Journal - (9/9)"),
-			popup: $.t("weapon inflict +2% limb damage | Cabot House, in the Bedroom upstaris (you get there after 3 Side Quests)")
+			label: $.t("c:Magazines.label.SurgicalJournal") + $.t(" 9/9- ") + $.t("c:Magazines.label.SurgicalJournal9-9"),
+			popup: $.t("c:Magazines.desc.SurgicalJournal") + $.t(" | ") + $.t("c:Magazines.desc.SurgicalJournal-9-9"),
 		}
 		],
 	
 	//Astoundingly Awesome Tales
 		barber: [{
 		coords: [[-62.288,-151.348]],
-			label: $.t("Astoundingly Awesome Tales - My Brain and I... (1/14)"),
-			popup: $.t("Regenerate 1 point of health per minute | inside Boston Mayoral Shelter")
+			label: $.t("c:Magazines.label.Astoundingly") + $.t(" 1/14 - ") + $.t("c:Magazines.label.Astoundingly1-14"),
+			popup: $.t("c:Magazines.desc.Astoundingly1") + $.t(" | ") + $.t("c:Magazines.desc.Astoundingly-1-14"),
 		},{
 		coords: [[-84.285,-142.559]],
-			label: $.t("Astoundingly Awesome Tales (2/14)"),
-			popup: $.t("Do +5% damage with scoped weapons. | inside sentinel site")
+			label: $.t("c:Magazines.label.Astoundingly") + $.t(" 2/14 - ") + $.t("c:Magazines.label.Astoundingly2-14"),
+			popup: $.t("c:Magazines.desc.Astoundingly2") + $.t(" | ") + $.t("c:Magazines.desc.Astoundingly-2-14"),
 		},{
 		coords: [[-62.755,-75.410]],
-			label: $.t("Astoundingly Awesome Tales (3/14)"),
-			popup: $.t('Gain +5 Action Points | Inside Vault 114 [<a href="http://i.imgur.com/ihAylie.png" target=_blank">Image</a>]')
+			label: $.t("c:Magazines.label.Astoundingly") + $.t(" 3/14 - ") + $.t("c:Magazines.label.Astoundingly3-14"),
+			popup: $.t("c:Magazines.desc.Astoundingly3") + $.t(" | ") + $.t("c:Magazines.desc.Astoundingly-3-14"),
 		},{
 		coords: [[-11.437,-87.231]],
-			label: $.t("Astoundingly Awesome Tales (4/14)"),
-			popup: $.t('Gain +5 Action Points | at the Skylanes Flight 1981 Wreck')
+			label: $.t("c:Magazines.label.Astoundingly") + $.t(" 4/14 - ") + $.t("c:Magazines.label.Astoundingly4-14"),
+			popup: $.t("c:Magazines.desc.Astoundingly4") + $.t(" | ") + $.t("c:Magazines.desc.Astoundingly-4-14"),
 		},{
 		coords: [[-1.933,-89.209]],
-			label: $.t("Astoundingly Awesome Tales (5/14)"),
-			popup: $.t('Do +5% damage at night | in the Workshop of Outpost Zimonja')
+			label: $.t("c:Magazines.label.Astoundingly") + $.t(" 5/14 - ") + $.t("c:Magazines.label.Astoundingly5-14"),
+			popup: $.t("c:Magazines.desc.Astoundingly5") + $.t(" | ") + $.t("c:Magazines.desc.Astoundingly-5-14"),
 		},{
 		coords: [[-17.351,-32.915]],
-			label: $.t("Astoundingly Awesome Tales - The Man who could stop time (8/14)"),
-			popup: $.t('Gain +5 Action Points. | Dunwich Borers, At the bottom of the pit below terminal #3, on a table near the steamer trunk')
+			label: $.t("c:Magazines.label.Astoundingly") + $.t(" 6/14 - ") + $.t("c:Magazines.label.Astoundingly6-14"),
+			popup: $.t("c:Magazines.desc.Astoundingly6") + $.t(" | ") + $.t("c:Magazines.desc.Astoundingly-6-14"),
 		}
 		
 		
@@ -525,16 +537,18 @@ $(document).on("loadMapdata", function () {
 	// Total Hack (3/50)
 		blacksmith: [{
 		coords: [[-18.438,-90.615]],
-			label: $.t("Total Hack - Control Turrets (1/3)"),
-			popup: $.t("Inculdes the turrent hacking source code | Wildwood cemetery - near the big  tree")
+			//label: $.t("Total Hack - Control Turrets (1/3)"),
+			//popup: $.t("Inculdes the turrent hacking source code | Wildwood cemetery - near the big  tree")
+			label: $.t("c:Magazines.label.Hack") + $.t(" 1/3 - ") + $.t("c:Magazines.label.Hack1-3"),
+			popup: $.t("c:Magazines.desc.Hack1-3"),
 		},{
 		coords: [[-46.980,-84.814]],
-			label: $.t("Total Hack (2/3)"),
-			popup: $.t("Inculdes the spotlights hacking source code | Basement server room, on the terminal desk, north wall.")
+			label: $.t("c:Magazines.label.Hack") + $.t(" 2/3 - ") + $.t("c:Magazines.label.Hack2-3"),
+			popup: $.t("c:Magazines.desc.Hack2-3"),
 		},{
 		coords: [[-62.735,-56.953]],
-			label: $.t("Total Hack (3/3)"),
-			popup: $.t("Inculdes the Protectrons hacking source code | Held by the female mannequin standing on the table in the game room with the checkers board.")
+			label: $.t("c:Magazines.label.Hack") + $.t(" 3/3 - ") + $.t("c:Magazines.label.Hack3-3"),
+			popup: $.t("c:Magazines.desc.Hack3-3"),
 		}
 		],
 
@@ -542,8 +556,8 @@ $(document).on("loadMapdata", function () {
 		brothel: [
 		{
 		coords: [[-3.689,-112.764]],
-			label: $.t("Covert Operations Manual - Tiptoe Through the Tuplips(1/10)"),
-			popup: $.t("low chance of detecion while sneaking | Inside USAF Satellite Station Olivia - Inside the computer room unlocked by terminal (southeast interior), on the desk with the mini nuke.")
+			label: $.t("c:Magazines.label.Covert") + $.t(" 1/10 - ") + $.t("c:Magazines.label.Covert1-10"),
+			popup: $.t("c:Magazines.desc.Covert1-10"),
 		}, {
 		coords: [[-61.109,-148.008]],
 			label: $.t("Covert Operations Manual  (2/10)"),
@@ -565,20 +579,20 @@ $(document).on("loadMapdata", function () {
 	// Grindstone
 		grindstone: [{
 		coords: [[-23.080,-142.910]],
-			label: $.t("Grognak the Barbarian (1/10)"),
-			popup: $.t("+1 critical damage of melee attacks perk | next to the key in the wicked shipping fleet lockup")
+			label: $.t("c:Magazines.label.Grognak") + $.t(" 1/10 - ") + $.t("c:Magazines.label.Grognak1-10"),
+			popup: $.t("c:Magazines.desc.Grognak") + $.t(" | ") + $.t("c:Magazines.desc.Grognak1-10"),
 		},{
 		coords: [[-24.327,-67.983]],
-			label: $.t("Grognak the Barbarian (2/10)"),
-			popup: $.t("+5% critical damage for Ballistic weapons | inside Malden Middle School/Vault 75 - Follow the Quest Vault 75, Book is in the Overseers Quarter")
+			label: $.t("c:Magazines.label.Grognak") + $.t(" 2/10 - ") + $.t("c:Magazines.label.Grognak2-10"),
+			popup: $.t("c:Magazines.desc.Grognak") + $.t(" | ") + $.t("c:Magazines.desc.Grognak2-10"),
 		}
 		],
 
 	// Guns and Bullets 
 		guarded: [{
 		coords: [[-60.109,-148.008]],
-			label: $.t("Guns and Bullets: Lasers & Hunting: Acceptable Overkill (1/10)"),
-			popup: $.t("+5% critical damage for Ballistic weapons | inside Fort Hagen On the oval table in the kitchen area, top floor, southeast area.")
+			label: $.t("c:Magazines.label.Guns") + $.t(" 1/10 - ") + $.t("c:Magazines.label.Guns1-10"),
+			popup: $.t("c:Magazines.desc.Guns") + $.t(" | ") + $.t("c:Magazines.desc.Guns1-10"),
 		},{
 		coords: [[-7.362,-11.426]],
 			label: $.t("Guns and Bullets: Avoid those Pesky Gun Laws! (2/10)"),
@@ -620,28 +634,28 @@ $(document).on("loadMapdata", function () {
 	// Hot Rodder (3/122)
 		gwent: [{
 		coords: [[-76.016,-52.998]],
-			label: $.t("Hot Rodder - Shark Paint Schemes! (1/3)"),
-			popup: $.t('Shark Paint Powerarmor Paint | Atom Cats garage - In one of the Trailers - North One [<a href="https://youtu.be/9eb9aLzvU7Q?t=158" target="_blank">Video</a>]')
+			label: $.t("c:Magazines.label.Rodder") + $.t(" 1/3 - ") + $.t("c:Magazines.label.Rodder1-3"),
+			popup: $.t("c:Magazines.desc.Rodder1") + $.t(" | ") + $.t("c:Magazines.desc.Rodder1-3"),
 		},{
 		coords: [[-2.987,-120.850]],
-			label: $.t("Hot Rodder - Flame Job! (2/3)"),
-			popup: $.t('Flame Job Powerarmor Paint | Robotics Disposal Ground - Inside the small concrete hut, on the desk with the terminal on it (more to the North then the Icons shows) [<a href="https://youtu.be/9eb9aLzvU7Q?t=177" target="_blank">Video</a>]')
+			label: $.t("c:Magazines.label.Rodder") + $.t(" 2/3 - ") + $.t("c:Magazines.label.Rodder2-3"),
+			popup: $.t("c:Magazines.desc.Rodder2") + $.t(" | ") + $.t("c:Magazines.desc.Rodder2-3"),
 		}, {
 		coords: [[-73.391,-90.967]],
-			label: $.t("Hot Rodder - Hot Pink! (3/3)"),
-			popup: $.t('Hot Pink Powerarmor Paint | near West Roxbury station and the Medical Building.  [<a href="https://youtu.be/9eb9aLzvU7Q?t=193" target="_blank">Video Walktrough</a>]')
+			label: $.t("c:Magazines.label.Rodder") + $.t(" 3/3 - ") + $.t("c:Magazines.label.Rodder3-3"),
+			popup: $.t("c:Magazines.desc.Rodder3") + $.t(" | ") + $.t("c:Magazines.desc.Rodder3-3"),
 		}
 		
 		],
-		//Mag: La Coiffe
+		//Mag: La Coiffe (2/2)
 		harbor: [{
 		coords: [[-73.478,-89.209]],
-			label: $.t("La Coiffe (1/2)"),
-			popup: $.t("Unlocks a unique hairstyle | Inside Fallons Department Store - top Floor, in a Roundroom with a brocken Door, on the Table")
+			label: $.t("c:Magazines.label.Coiffe") + $.t(" 1/2 - ") + $.t("c:Magazines.label.Coiffe1-2"),
+			popup: $.t("c:Magazines.desc.Coiffe1") + $.t(" | ") + $.t("c:Magazines.desc.Coiffe1-2"),
 		},{
 		coords: [[-51.289,-65.391]],
-			label: $.t("La Coiffe (1/2)"),
-			popup: $.t("Unlocks a unique hairstyle. | inside Charlestown Laundry")
+			label: $.t("c:Magazines.label.Coiffe") + $.t(" 2/2 - ") + $.t("c:Magazines.label.Coiffe1-2"),
+			popup: $.t("c:Magazines.desc.Coiffe2") + $.t(" | ") + $.t("c:Magazines.desc.Coiffe2-2"),
 		}
 		],
 
@@ -716,26 +730,13 @@ $(document).on("loadMapdata", function () {
 	// Live & Love
 		herbalist: [{
 		coords: [[-43.993,-40.518]],
-			label: $.t("Live & Love (1/9)"),
-			popup: $.t("Unlocks a unique hairstyle. | top Floor of Building just near Revere Beach Station")
+			label: $.t("c:Magazines.label.Live") + $.t(" 1/9 - ") + $.t("c:Magazines.label.Live-1-9"),
+			popup: $.t("c:Magazines.desc.Live-1") + $.t(" | ") + $.t("c:Magazines.desc.Live-1-9"),
 		},{
 		coords: [[-57.232,-137.021]],
-			label: $.t("Live & Love - The Secretary Charmer (2/9)"),
-			popup: $.t("Permaently gain +25% XP from persuading womein  | in one of the Trailers at Fiddlers Green Trailer Estates")
-		},{
-		coords: [[-61.143,-68.203]],
-			label: $.t("Live & Love - Advice From Married Men (3/9)"),
-			popup: $.t("P | inside Goodneighbor - The Third Rail, Bathroom")
-		},{
-		coords: [[-60.436,-66.797]],
-			label: $.t("Live & Love - An Experience to Remember (4/9)"),
-			popup: $.t("  | inside Goodneighbor -Hotel Rexford, Groundfloor at the Bar")
-		},{
-		coords: [[-51.289,-65.391]],
-			label: $.t("Live & Love - An Experience to Remember (4/9)"),
-			popup: $.t("Permaently gain +25% XP from persuading men | inside Bunker Hill, top of the Tower")
+			label: $.t("c:Magazines.label.Live") + $.t(" 2/9 - ") + $.t("c:Magazines.label.Live-2-9"),
+			popup: $.t("c:Magazines.desc.Live-2") + $.t(" | ") + $.t("c:Magazines.desc.Live-2-9"),
 		}
-		
 		
 		
 		
@@ -872,111 +873,63 @@ $(document).on("loadMapdata", function () {
 	// Wasteland Survival Guide
 		magwasteland: [{
 		coords: [[-64.168,-71.367]],
-			label: $.t("Wasteland Survival Guide - Farming The Wastes (1/9)"),
-			popup: $.t('Heal +50% more from fruits and vegetables. |  in the ranger cabin')
+			label: $.t("c:Magazines.label.Wasteland") + $.t(" 1/9 - ") + $.t("c:Magazines.label.Wasteland-1-9"),
+			popup: $.t("c:Magazines.desc.Wasteland-1") + $.t(" | ") + $.t("c:Magazines.desc.Wasteland-1-9"),
 		},{
 		coords: [[-27.059,-127.969]],
-			label: $.t("Wasteland Survival Guide - Guide To Diamond City (5/9)"),
-			popup: $.t('Diamond City is permanently marked on your map. | in the root cellar of Gorskis cabin')
-		},{
-		coords: [[-74.845,-104.897]],
-			label: $.t("Wasteland Survival Guide -The Brightside Of Radiation Poisoning (3/9)"),
-			popup: $.t('Permanently heal +50% from irradiated packaged food and drink |  On the counter of the diner and coolant recharge station.')
-		},{
-		coords: [[-19.145,-17.490]],
-			label: $.t("Wasteland Survival Guide - Insect Repellent Special (2/9)"),
-			popup: $.t('Permanently take 5% less damage from insects. | Crater House, Western side of the crater, on the table, lower level of a stilt shack with a lantern and caps stash on a table.')
-		},{
-		coords: [[-74.845,-104.897]],
-			label: $.t("Wasteland Survival Guide - The Bright Side of Radiation (4/9)"),
-			popup: $.t('Permanently heal +50% from irradiated packaged food and drink |  On the counter of the diner and coolant recharge station.')
-		}
-		,{
-		coords: [[-45.951,-6.592]],
-			label: $.t("Wasteland Survival Guide - Commonwealth Coupon Spectacular (6/9)"),
-			popup: $.t('Permanently gain +10% discount from food and drink vendors. |  Nahant Oceanological Society, On the metal desk with the typewriter, entrance room area, ground floor.')
-		}
-		,{
-		coords: [[-17.644,-65.918]],
-			label: $.t("Wasteland Survival Guide - Commonwealth Coupon Spectacular (7/9)"),
-			popup: $.t('Permanently swim 25% faster | Old Gullet sinkhole, On a concrete block inside the sinkhole, by the cooking pot station.')
-		}
-		,{
-		coords: [[-16.130,-145.635]],
-			label: $.t("Wasteland Survival Guide - Self Defense Secrets (8/9)"),
-			popup: $.t('Permanently take 5% less damage from melee attacks. | Ranger cabin, On the sideboard table in the cabin.')
-		}
-		,{
-		coords: [[-36.102,-144.229]],
-			label: $.t("Wasteland Survival Guide  -Hunting in the Wastes (9/9)"),
-			popup: $.t('Permanently collect more meat from animal kills. |  Sunshine Tidings, In the locked cabin near the silos, on the floor near a mattress and steamer trunk.')
-		}
-		],
+			label: $.t("c:Magazines.label.Wasteland") + $.t(" 2/9 - ") + $.t("c:Magazines.label.Wasteland-2-9"),
+			popup: $.t("c:Magazines.desc.Wasteland-2") + $.t(" | ") + $.t("c:Magazines.desc.Wasteland-2-9"),
+		}],
 
 	// Picket Fences (5/122)
 		monsterden: [{
 		coords: [[-64.168,-71.367]],
-			label: $.t("Picket Fences (1/5)"),
-			popup: $.t('potted plants blueprint | inside Combat Zone [<a href="https://youtu.be/MhEmt_ruN_Y?t=146" target="_blank">Video</a>]')
+			label: $.t("c:Magazines.label.Fences") + $.t(" 1/5 - ") + $.t("c:Magazines.label.Fences-1-5"),
+			popup: $.t("c:Magazines.desc.Fences-1") + $.t(" | ") + $.t("c:Magazines.desc.Fences-1-5"),
 		},{
 		coords: [[-28.613,-42.627]],
-			label: $.t("Picket Fences - Essential Upgrades! (2/5)"),
-			popup: $.t('new statues blueprint | inside Saugus Ironworks [<a href="https://youtu.be/MhEmt_ruN_Y?t=132" target="_blank">Video</a>]')
+			label: $.t("c:Magazines.label.Fences") + $.t(" 2/5 - ") + $.t("c:Magazines.label.Fences-2-5"),
+			popup: $.t("c:Magazines.desc.Fences-2") + $.t(" | ") + $.t("c:Magazines.desc.Fences-2-5"),
 		},{
 		coords: [[-58.078,-127.002]],
-			label: $.t("Picket Fences - Welcome Home! (3/5)"),
-		popup: $.t('patio furniture blueprint | inside Weston water treatment plant [<a href="https://youtu.be/MhEmt_ruN_Y?t=76" target="_blank">Video</a>]')
+			label: $.t("c:Magazines.label.Fences") + $.t(" 3/5 - ") + $.t("c:Magazines.label.Fences-3-5"),
+			popup: $.t("c:Magazines.desc.Fences-3") + $.t(" | ") + $.t("c:Magazines.desc.Fences-3-5"),
 		},{
 		coords: [[-68.269,-98.438]],
-			label: $.t("Picket Fences (4/5)"),
-			popup: $.t('high tech light blueprint | inside Hardware Town [<a href="https://youtu.be/MhEmt_ruN_Y?t=94" target="_blank">Video</a>]')
+			label: $.t("c:Magazines.label.Fences") + $.t(" 4/5 - ") + $.t("c:Magazines.label.Fences-4-5"),
+			popup: $.t("c:Magazines.desc.Fences-4") + $.t(" | ") + $.t("c:Magazines.desc.Fences-5-5"),
 		},{
 		coords: [[-55.179,-113.203]],
-			label: $.t("Picket Fences - The House of Tomorrow... (5/5)"),
-			popup: $.t('picket fencing blueprint | inside Beantown Brewery [<a href="https://youtu.be/MhEmt_ruN_Y?t=4" target="_blank">Video</a>]')
+			label: $.t("c:Magazines.label.Fences") + $.t(" 5/5 - ") + $.t("c:Magazines.label.Fences-5-5"),
+			popup: $.t("c:Magazines.desc.Fences-5") + $.t(" | ") + $.t("c:Magazines.desc.Fences-5-5"),
 		}],
 	
 	// Unique Weapons 
 	// Junk Jet -48.458,-128.936
 		monsternest: [{
 		coords: [[-48.458,-128.936]],
-			label: $.t("Junk Jet"),
-			popup: $.t("In ArcJet Systems on the table in the rocket control room.")
+			label: $.t("c:Magazines.label.Weapons1"),
+			popup: $.t("c:Magazines.desc.Weapons1"),
 		},{
 		coords: [[-58.448,-110.918]],
-			label: $.t("Alien Blaster"),
-			popup: $.t("there is a small cave with a Alien in it!")
+			label: $.t("c:Magazines.label.Weapons2"),
+			popup: $.t("c:Magazines.desc.Weapons2"),
 		},{
 		coords: [[-73.252,-64.248]],
-			label: $.t("Prototype PA77"),
-			popup: $.t("gun with Infinite clip size, Master Lock Safe!")
+			label: $.t("c:Magazines.label.Weapons3"),
+			popup: $.t("c:Magazines.desc.Weapons3"),
 		},{
 		coords: [[-3.689,-145.635]],
-			label: $.t("Cryolater"),
-			popup: $.t("Master Lock Safe!")
-		},{
-		coords: [[-65.964,-107.490]],
-			label: $.t("Syringer Rifle"),
-			popup: $.t("Vault 91 - After the Sidequest Missing Hole in the Wall")
-		},{
-		coords: [[-56.341,-58.0525]],
-			label: $.t("Raiload Rifle"),
-			popup: $.t("Railroad HQ - last Mission in the Railroad Missions Series")
-		},{
-		coords: [[-66.231,-90.220]],
-			label: $.t("Big Boy"),
-			popup: $.t('Buy Big Boy from Arturo at Diamond City Market [<a href="http://i.imgur.com/DHIq5jm.jpg" target="_blank">Image</a>]')
-		},{
-		coords: [[-55.925,-69.521]],
-			label: $.t("Zeta Gun"),
-			popup: $.t('Cabot House - You get this as you done 3 Quests here')
-		}
-		],
+			label: $.t("c:Magazines.label.Weapons4"),
+			popup: $.t("c:Magazines.desc.Weapons4"),
+		}],
 
 		notice: [],
 
-	// Person in Distress
+	// Unstoppables
 		pid: [],
+			//label: $.t("c:Magazines.label.Unstoppables") + $.t(" 1/5 - ") + $.t("c:Magazines.label.Unstoppables-1-5"),
+			//popup: $.t("c:Magazines.desc.Unstoppables") + $.t(" | ") + $.t("c:Magazines.desc.Unstoppables-1-5")
 
 	// Place of Power
 		pop: [],
@@ -984,35 +937,37 @@ $(document).on("loadMapdata", function () {
 	// Point of Interest
 		poi: [{
 		coords: [[-73.898,-90.352]],
-			label: $.t('Robot Model Kits (1/8)'),
+			//label: $.t('Robot Model Kits (1/8)'),
+			//popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">Eyebot Model Kit</a> | Inside Fallons Department Store - First Floor - Room with Employees Only/Novie Lockpick - in one of the shelves')
+			label: $.t("c:Magazines.label.Robot") + $.t(" 1/8"),
 			popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">Eyebot Model Kit</a> | Inside Fallons Department Store - First Floor - Room with Employees Only/Novie Lockpick - in one of the shelves')
 		},{
 		coords: [[-83.638,-143.877]],
-			label: $.t('Robot Model Kits (2/8)'),
+			label: $.t("c:Magazines.label.Robot") + $.t(" 2/8"),
 			popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">SentryBot Model Kit</a> | Inside O-Neill Family Manufacturing - Basement')
 		},{
 		coords: [[-44.559,-41.968]],
-			label: $.t('Robot Model Kits (3/8)'),
+			label: $.t("c:Magazines.label.Robot") + $.t(" 3/8"),
 			popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">Protectron Model Kit</a> | SW from Revere Beach Station - in a Big buling that is locked by chains, you can accces to to roof over a tree (Deaddrop Sign)')
 		},{
 		coords: [[-62.795,-152.358]],
-			label: $.t('Robot Model Kits (4/8)'),
+			label: $.t("c:Magazines.label.Robot") + $.t(" 4/8"),
 			popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">Mr. Gutsy Model Kit</a> | inside Boston Mayoral Shelter - in one of the Bedrooms')
 		},{
 		coords: [[-69.870,-137.285]],
-			label: $.t('Robot Model Kits (5/8)'),
+			label: $.t("c:Magazines.label.Robot") + $.t(" 5/8"),
 			popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">Mr. Handy Model Kit</a> | at Lake Cochituate at some Fisherhuts')
 		},{
 		coords: [[-2.724,-22.500]],
-			label: $.t('Robot Model Kits (6/8)'),
+				label: $.t("c:Magazines.label.Robot") + $.t(" 6/8"),
 			popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">Robot Model Kit Parts</a> | small Building directly right from Mahkra Fishpacking')
 		},{
 		coords: [[-68.816,-144.053]],
-			label: $.t('Robot Model Kits (7/8)'),
+			label: $.t("c:Magazines.label.Robot") + $.t(" 7/8"),
 			popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">Robot Model Kit Parts</a> | near Poseidon Reservoir. On the Southside is a broken Pipe ending in the water, with a Deaddrop Sign, go up the Pipe to find it')
 		},{
 		coords: [[-15.961,-27.773]],
-			label: $.t('Robot Model Kits (8/8)'),
+			label: $.t("c:Magazines.label.Robot") + $.t(" 8/8"),
 			popup: $.t('<a href="https://wiiare.in/portfolio-type/fallout-4-robot-model-kit-locations/" target="_blank">Robot Model Kit Parts</a> | at Hugos Hole')
 		}
 		
@@ -1020,9 +975,11 @@ $(document).on("loadMapdata", function () {
 		
 		],
 
-	// Shopkeeper
+	// Tumblers Today
 		shopkeeper: [],
-
+//label: $.t("c:Magazines.label.Tumblers") + $.t(" 1/5 - ") + $.t("c:Magazines.label.Tumblers-1-5"),
+//popup: $.t("c:Magazines.desc.Tumblers-1-5")
+		
 	// Mag: RobCo Fun (5/50)
 	//Vault 111 - Inside the cafeteria terminal, northeast area. Only the game is available.
 //Museum of Freedom - In the chamber above the front doors, where Preston is holed up, on Sturges’ desk.
@@ -1031,63 +988,15 @@ $(document).on("loadMapdata", function () {
 //Goodneighbor - In the Memory Den, basement Memory Lounger area, on a metal desk against one of the brick walls.
 		signpost: [{
 		coords: [[-60.109,-148.008]],
-			label: $.t("Robo Fun (1/5)"),
-			popup: $.t("holotape game  | inside Fort Hagen Command Center - adjacent to Kellogg’s Terminal under a table, in the chamber where you speak with Kellogg.")
-		}, {
-			coords: [[-2.241,-148.843]],
-			label: $.t("Robo Fun (2/5)"),
-			popup: $.t("holotape game  | inside Fort Hagen Command Center - adjacent to Kellogg’s Terminal under a table, in the chamber where you speak with Kellogg.")
-		}
-		, {
-			coords: [[-19.270,-122.322]],
-			label: $.t("Robo Fun (3/5)"),
-			popup: $.t("holotape game  | inside Museum of Freedom - In the chamber above the front doors, where Preston is holed up, on Sturges’ desk.")
-		}
-		, {
-			coords: [[-66.548,-88.418]],
-			label: $.t("Robo Fun (4/5)"),
-			popup: $.t("holotape game  | inside Diamond City - on a desk, inside the Valentine’s Detective Agency")
-		}
-		, {
-			coords: [[-61.397,-66.709]],
-			label: $.t("Robo Fun (5/5)"),
-			popup: $.t("holotape game  | inside Goodneighbor  - basement Memory Lounger area, on a metal desk against one of the brick walls")
-		}
-		],
+			label: $.t("c:Magazines.label.RobCo") + $.t(" 1/5 - ") + $.t("c:Magazines.label.RobCo-1-5"),
+			popup: $.t("c:Magazines.desc.RobCo") + $.t(" | ") + $.t("c:Magazines.desc.RobCo-1-5")
+		}],
 
 	// Tales of a Junktown Jerky Vendor
 		smugglers: [{
 			coords: [[-35.925,-133.945]],
-			label: $.t("Tales of a Junktown Jerky Vendor (1/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | Walden Pond, in the sewer/Basement ")
-		},{
-			coords: [[-31.952,-98.833]],
-			label: $.t("Tales of a Junktown Jerky Vendor (2/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | Mystic Pines, on the magazine stand, northwest wall, just right of the Milton General Hospital poster.")
-		},{
-			coords: [[-35.711,-106.479]],
-			label: $.t("Tales of a Junktown Jerky Vendor (3/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | Super-Duper Mart,  on the magazine stand, northwest wall, just right of the Milton General Hospital poster.")
-		},{
-			coords: [[-29.267,-25.093]],
-			label: $.t("Tales of a Junktown Jerky Vendor (4/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | inside Longneck Lukowski's Cannery, near the Bobblehead")
-		},{
-			coords: [[-70.334,-77.563]],
-			label: $.t("Tales of a Junktown Jerky Vendor (5/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | Big John's salvage, on the small table with the lantern, inside the caravan perched atop the containers, adjacent to the steamer trunk.")
-		},{
-			coords: [[-78.455,-38.496]],
-			label: $.t("Tales of a Junktown Jerky Vendor (6/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | Wreck of the FMS Northern Star,  upper level, mid-deck, on the parasol table, north side of the ship.")
-		},{
-			coords: [[-67.221,-57.437]],
-			label: $.t("Tales of a Junktown Jerky Vendor (7/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | Four Leaf fishpacking plant, basement locker room, on the bench, western side of the plant.")
-		},{
-			coords: [[-70.378,-59.106]],
-			label: $.t("Tales of a Junktown Jerky Vendor (8/8)"),
-			popup: $.t("better prices when buying from vendors for every issue | Gwinnett brewery, catwalk metal hut, upper level, along the northwest wall. Climb the pipes and catwalks to reach it.")
+			label: $.t("c:Magazines.label.Tales") + $.t(" 1/8 - ") + $.t("c:Magazines.label.Tales-1-8"),
+			popup: $.t("c:Magazines.desc.Tales") + $.t(" | ") + $.t("c:Magazines.desc.Tales-1-8")
 		}],
 		
 	

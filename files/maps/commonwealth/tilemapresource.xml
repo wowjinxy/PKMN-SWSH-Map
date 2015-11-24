@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-	  <Title>worldmap2.png</Title>
+	  <Title>fallout4map.png</Title>
 	  <Abstract></Abstract>
 	  <SRS></SRS>
-	  <BoundingBox minx="-2048.00000000000000" miny="0.00000000000000" maxx="0.00000000000000" maxy="2048.00000000000000"/>
-	  <Origin x="-2048.00000000000000" y="0.00000000000000"/>
+	  <BoundingBox minx="-1700.00000000000000" miny="0.00000000000000" maxx="0.00000000000000" maxy="1600.00000000000000"/>
+	  <Origin x="-1700.00000000000000" y="0.00000000000000"/>
 	  <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
 	  <TileSets profile="raster">
 	    <TileSet href="0" units-per-pixel="8.00000000000000" order="0"/>
