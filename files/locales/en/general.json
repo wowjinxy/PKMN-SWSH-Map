@@ -1,7 +1,7 @@
 {
 	"maps": {
-		"white_orchard": "The Commonwealth",
-		"commonwealth": "The Commonwealth v2"
+		"white_orchard": "The Commonwealth (old)",
+		"commonwealth": "The Commonwealth (new)"
 	},
 	"home": {
 		"tagline": "Unofficial Fallout 4 Interactive Map <br>(Currently under development)",
@@ -27,7 +27,6 @@
 		"banditcamp": "Mag: Surgical Journal",
 		"barber": "Mag: Astoundingly Awesome Tales",
 		"blacksmith": "Mag: Total Hack",
-		"brothel": "Mag: Covert Operations Manual",
 		"loveInterest": "Love Interest",
 		"entrance": "Mag: Covert Operations Manual",
 		"grindstone": "Mag: Grognak the Barbarian",
@@ -81,9 +80,6 @@
 		"contribute": "Work in progress! Help appreciated at __link__",
 		"discuss": "Feedback, suggestions? Discuss on __link__",
 		"helpTranslate": "Want to help or improve translations?",
-		"portraitWarn": "Note: the map is best viewed in landscape mode, tap to dismiss",
-		"loveInterestDesc": "Meet your love interest here",
-		"nsfwConfirm": "This will change 'Brothel' to 'Love Interest', are you sure?",
-		"nsfwUndo": "Are you sure you want to go back?"
+		"portraitWarn": "Note: the map is best viewed in landscape mode, tap to dismiss"
 	}
 }

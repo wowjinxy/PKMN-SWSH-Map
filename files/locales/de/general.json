@@ -1,6 +1,7 @@
 {
   "maps":{
-    "white_orchard":"Das Commonwealth"
+    "white_orchard":"Das Commonwealth",
+    "commonwealth":"Der Commonwealth (neu)"
   },
   "home":{
     "tagline":"Inoffizielle interaktive Fallout 4 Karte <br>(derzeit noch in Entwicklung)",
@@ -22,11 +23,11 @@
     "alchemy":"Mag: U.S.-Handbuch für verdeckte Einsätze",
     "abandoned":"Standorte",
     "armourer":"Wackelköpfe",
-    "armourerstable":"Powerrüstung",
+    "powerarmor":"Powerrüstung",
     "banditcamp":"Mag: Massachusetts-Chirurgenblatt",
     "barber":"Mag: Unglaublich überwältigende Geschichten",
     "blacksmith":"Mag: Total Hack",
-    "brothel":"Mag: U.S.-Handbuch für verdeckte Einsätze",
+    "loveInterest":"n\/a",
     "entrance":"Mag: U.S.-Handbuch für verdeckte Einsätze",
     "grindstone":"Mag: Grognak der Barbar",
     "guarded":"Mag: Pistolen und Patronen",
@@ -48,7 +49,7 @@
     "masterterminal":"Meister Terminal",
     "magtesla":"Mag: Teslas Forschung",
     "spoils":"Mag: Tabu Tattoos",
-    "quest":"Sonstige Missionen",
+    "quest":"Nebenmissionen",
     "sidequest":"Nebenmissionen",
     "nuke":"Mini-Atombomben",
     "powercore":"Fusionskern"
@@ -60,6 +61,8 @@
     "hideCounts":"Zähler ausblenden",
     "resetInvisible":"Ausgeblendetes zurücksetzen",
     "resetInvisConfirm":"Dies wird alle ausgeblendete\/verfolgte Marker auf ihren Standardzustand (sichtbar) zurücksetzen, sind Sie sicher?",
+    "hideMonsters":"n\/a",
+    "showMonsters":"n\/a",
     "helpFeatures":"Funktionen & Hilfe",
     "credits":"Credits",
     "backupSave":"Dies wird eine Sicherungskopie aller Fallout 4 Karteneinstellungen herunterladen.\nDie Datei wird gespeichert als: __fileName__ \nBist du sicher?",
@@ -77,7 +80,6 @@
     "contribute":"In Arbeit! Hilfe wird begrüßt __link__",
     "discuss":"Rückmeldungen, Vorschläge? Besprechen Sie auf __link__",
     "helpTranslate":"Möchten Sie bei der Übersetzung mithelfen oder diese verbessern?",
-    "portraitWarn":"Die Karte lässt sich am besten im Landscape Modus betrachten",
-    "nsfwUndo":"Sind Sie sicher, dass Sie wieder zurück gehen möchten?"
+    "portraitWarn":"Die Karte lässt sich am besten im Landscape Modus betrachten"
   }
 }
