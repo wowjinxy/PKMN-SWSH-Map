@@ -104,12 +104,12 @@ $(document).on("loadShared", function () {
 		iconSize : [20, 30]
 	});
 
-	//del 
+	//del
 	icons.abandoned = L.icon({
 		iconUrl  : '../files/img/icons/abandoned.png',
 		iconSize : [24, 35]
 	});
-	
+
 	icons.location = L.icon({
 		iconUrl  : '../files/img/icons/location_.png',
 		iconSize : [24, 35]
@@ -130,7 +130,7 @@ $(document).on("loadShared", function () {
 		iconUrl  : '../files/img/icons/armourerstable.png',
 		iconSize : [30, 27]
 	});
-	
+
 	// icons.powerarmor = L.icon({
 		// iconUrl  : '../files/img/icons/powerarmor_.png',
 		// iconSize : [30, 27]
@@ -183,7 +183,7 @@ $(document).on("loadShared", function () {
 
 	icons.herbalist = L.icon({
 		iconUrl  : '../files/img/icons/herbalist.png',
-		iconSize : [25, 28]
+		iconSize : [23, 34]
 	});
 
 	icons.hidden = L.icon({
@@ -205,17 +205,17 @@ $(document).on("loadShared", function () {
 		iconUrl  : '../files/img/icons/monsternest.png',
 		iconSize : [23, 30]
 	});
-	
+
 	icons.quest = L.icon({
 		iconUrl  : '../files/img/icons/quest.png',
 		iconSize : [10, 30]
 	});
-	
+
 	icons.sidequest = L.icon({
 		iconUrl  : '../files/img/icons/sidequest.png',
 		iconSize : [10, 30]
 	})
-	
+
 	icons.miscquest = L.icon({
 		iconUrl  : '../files/img/icons/miscquest.png',
 		iconSize : [10, 30]
@@ -246,12 +246,12 @@ $(document).on("loadShared", function () {
 		iconUrl  : '../files/img/icons/merchant.png',
 		iconSize : [21, 30]
 	});
-	
+
 	icons.masterlock = L.icon({
 		iconUrl  : '../files/img/icons/masterlock.png',
 		iconSize : [24, 31]
 	});
-	
+
 	icons.masterterminal = L.icon({
 		iconUrl  : '../files/img/icons/masterterminal.png',
 		iconSize : [21, 30]
@@ -264,6 +264,11 @@ $(document).on("loadShared", function () {
 
 	icons.smugglers = L.icon({
 		iconUrl  : '../files/img/icons/smugglers.png',
+		iconSize : [24, 35]
+	});
+
+	icons.magtesla = L.icon({
+		iconUrl  : '../files/img/icons/magtesla.png',
 		iconSize : [24, 35]
 	});
 

@@ -1,44 +1,63 @@
-{  
-   "location":{  
-      "label":{  
+{
+   "location":{
+      "label":{
          "behemoth":"Giant Creature - Level 50 Behemoth",
          "swain":"Giant Creature - Level 50 Swain",
+         "seamonster":"Giant Creature - Level 50",
          "vault75":"Vault 75",
-         "vault114":"Vault 114",
+         "vault111":"Vault 111",
          "vault95":"Vault 95",
-         "vault110":"Vault 110",
-         "vault81":"Vault 75"
+         "vault81":"Vault 81",
+         "SPECIALmag":"You're S.P.E.C.I.A.L.! Magazine",
+         "vault114":"Vault 114"
       },
-      "desc":{  
+      "desc":{
          "behemoth":"for the <a href=\"https://wiiare.in/portfolio-type/fallout-4-giant-creatures\" target=\"_blank\">...The Harder They Fall Achievement/Trophy</a>",
          "vault75":"Access via Malden Middle School",
+         "seamonster":"",
          "vault81":"",
          "vault95":"",
-         "vault110":"",
-         "vault114":""
+         "vault114":"",
+         "SPECIALmag":"+1 Skillpoint of your choosing | In your old House, on the Floor in Shauns Room ",
+         "vault111":""
       }
    },
-   "powerarmor":{  
-      "label":{  
+   "powerarmor":{
+      "label":{
          "powerarmor":"Power Armor"
       },
-      "desc":{  
+      "desc":{
          "powerarmor":""
       }
    },
-   "sidequest":{  
-      "label":{  
+   "sidequest":{
+      "label":{
          "Drumlin":"Drumlin Diner - Order Up"
       },
-      "desc":{  
+      "desc":{
          "siqequestlocation":"Side Quest Location",
          "Diamond":"Side Quest Location: The Gilded Grasshopper, Long Time Coming, The Disappearing Act, Painting the Town",
          "silver":"Side Quest Location - lissen to Radio",
          "Chestnut":"Side Quest Location - you need to have visited <a href=\"http://fallout4map.de/w/index.html#5/-64.216/-89.495/w=-64.737,-100.195&m=-65.257,-107.139\">Vault 81</a> already"
       }
    },
-   "miscquest":{  
-      "label":{  
+   "robotmodelkits":{
+      "label":{
+         "Robot":"Robot Model Kit"
+      },
+      "desc":{
+         "Robot1":"inside Fallons Department Store - First Floor - Room with Employees Only/Novie Lockpick - in one of the shelves",
+         "Robot2":"Inside O-Neill Family Manufacturing - Basement",
+         "Robot3":"SW from Revere Beach Station - in a Big buling that is locked by chains, you can accces to to roof over a tree (Deaddrop Sign)",
+         "Robot4":"inside Boston Mayoral Shelter - in one of the Bedrooms",
+         "Robot5":"at Lake Cochituate inside in one of the Fisherhuts",
+         "Robot6":"small Building directly right from Mahkra Fishpacking",
+         "Robot7":"near Poseidon Reservoir. On the Southside is a broken Pipe ending in the water, with a Deaddrop Sign, go up the Pipe to find it",
+         "Robot8":"at Hugos Hole"
+      }
+   },
+   "miscquest":{
+      "label":{
          "Bunker":"Bunker Hill",
          "Atom":"Atom Cats Garage",
          "Cambridge":"Cambridge Polymer Labs",
@@ -54,15 +73,64 @@
          "Rook":"Rook Family House",
          "Slog":"The Slog",
          "Vault75":"Vault 75",
-         "Vault81":"Vault 81",
          "Sanctuary":"Sanctuary"
       },
-      "desc":{  
+      "desc":{
          "popup":"Misc Quest Location (for the Mercenary Achievement/Trohy), see <a href=\"https://wiiare.in/?post_type=portfolio-type&p=17468\" target=\"_blank\">all here</a>"
       }
    },
-   "Magazines":{  
-      "label":{  
+   "settlements":{
+      "label":{
+         "Bunker":"Bunker Hill",
+         "AbernathyFarm":"Abernathy Farm",
+         "RedRocket":"Red Rocket Truck Stop",
+         "Diamond":"Diamond City",
+         "Graygarden":"Graygarden",
+         "Prydwen":"Prydwen",
+         "Jamaica":"Jamaica Plain",
+         "Slog":"The Slog",
+         "Spectacle":"Spectacle Island",
+         "WarwickHomestead":"Warwick Homestead",
+         "Airport":" Boston Airport",
+         "Bunker":"Bunker Hill",
+         "Castle":"The Castle",
+         "Coastal":"Coastal cottage",
+         "County":"County crossing",
+         "Covenant":"Covenant",
+         "Croup":"Croup manor",
+         "Egret":"Egret Tours Marina",
+         "Finch":"Finch farm",
+         "Hangman":"Hangman's Alle",
+         "Greentop":"Greentop Nursery",
+         "KingsportLighthouse":"Kingsport Lighthouse",
+         "Murkwater":"Murkwater construction site",
+         "Nordhagen":"Nordhagen beach",
+         "Oberland":"Oberland station",
+         "Zimonja":"Outpost Zimonja",
+         "Somerville":"Somerville Place",
+         "Starlight":"Starlight Drive In",
+         "Sunshine":"Sunshine Tidings co-op",
+         "Taffington":"Taffington boathouse",
+         "Tenpines":"Tenpines Bluff",
+         "XXX":"XXX",
+         "Sanctuary":"Sanctuary"
+      },
+      "desc":{
+         "quest":"Complete Quest to ally with this Settlement",
+         "Airport":"Complete a Quest here to make this a Settlement. You can't build here!",
+         "Bunker":"You need to complete the MainQuest: The Battle of Bunker Hill",
+         "Castle":"todo, some Mainquest of the Minutemen",
+         "Coastal":"",
+         "Croup":"",
+         "Diamond":"can be bought from the majors assistent for 2000 caps",
+         "XXX":"",
+         "XXX":"",
+         "XXX":"",
+         "Spectacle":"largest Settlement, Some Powerinfrastruecture. To use this Settlement turn on the Generator in the South on a Board (Level 50 Monster) and turn on the Speaker in the MIddle of the Map (follow the cables)"
+      }
+   },
+   "Magazines":{
+      "label":{
          "SurgicalJournal":"Massachusetts Surgical Journal",
          "SurgicalJournal1-9":"Let's Play Doctor!",
          "SurgicalJournal2-9":"ER Nurses Confess All",
@@ -161,10 +229,10 @@
          "Tesla-8-9":"What is Plasma, Anyway?",
          "Tesla-9-9":"Geckos and Gamma Radiation",
          "Tumblers":"Tumblers Today",
-         "Tumblers-1-5":"#1 Bobby Pins – More Effective Than Lockpicks?",
+         "Tumblers-1-5":"#1 Bobby Pins ï¿½ More Effective Than Lockpicks?",
          "Tumblers-2-5":"#2 Confessions of a Housebreaker",
          "Tumblers-3-5":"#3 Open Any Lock in 5 Seconds Flat",
-         "Tumblers-4-5":"#4 Locksmith Certification Special – Pass With Flying Colors",
+         "Tumblers-4-5":"#4 Locksmith Certification Special ï¿½ Pass With Flying Colors",
          "Tumblers-5-5":"#5 Mysteries of Master Key Exposed!",
          "Unstoppables":"Unstoppables",
          "Unstoppables-1-5":"Commie-Kazi VS. Manta man",
@@ -220,17 +288,16 @@
          "Weapons6":"Big Boy",
          "Weapons7":"Zeta Gun",
          "Weapons8":"Cryolater",
-         "Robot":"Robot Model Kit",
          "SPECIAL":"You're SPECIAL!"
       },
-      "desc":{  
+      "desc":{
          "SurgicalJournal":"weapon inflict +2% limb damage",
          "SurgicalJournal-1-9":"Parsons State Insane Asylum, Inside Lorenzos living quarters, at the very bottom floor of the facility.",
          "SurgicalJournal-2-9":"Medford Memorial hospital, In the filing and storage room, west side balcony above the main lobby, one floor up from the ground.",
          "SurgicalJournal-3-9":"Med-Tek research, Located on lowest floor, best found during \"Long Road Ahead\" quest for MacCready. As you enter the room where the Prevent is located, immediately to the right of the large central laboratory table on the corner of a smaller table with a broken terminal.",
-         "SurgicalJournal-4-9":"Greater Mass Blood clinic, In the analyst’s room (accessed via the wall terminal), on the desk.",
+         "SurgicalJournal-4-9":"Greater Mass Blood clinic, In the analystï¿½s room (accessed via the wall terminal), on the desk.",
          "SurgicalJournal-5-9":"Sandy Coves Convalescent Home, Behind the security door, next to the wall of safes, near the reception",
-         "SurgicalJournal-6-9":"Cambridge polymer labs, On the desk inside the Director’s office, above the reception area.",
+         "SurgicalJournal-6-9":"Cambridge polymer labs, On the desk inside the Directorï¿½s office, above the reception area.",
          "SurgicalJournal-7-9":"Greenetech Genetics, On the table between the two red sofas and dark carpet, in the long room mid-way up the north side of the building.",
          "SurgicalJournal-8-9":"Boston Public Library, In the overdue book vending machine (southeast area). Purchase with 50 Tokens via the terminal.",
          "SurgicalJournal-9-9":"Cabot House, in the Bedroom upstaris (you get there after 3 Side Quests)",
@@ -251,7 +318,7 @@
          "Astoundingly-1-14":"Boston mayoral shelter, Lower level bedroom, Southwest corner, on a small table.",
          "Astoundingly-2-14":"Coast Guard Pier, On the toilet inside the locked cell by the secured storage room.",
          "Astoundingly-3-14":"Dunwich Borers, At the bottom of the pit below terminal #3, on a table near the steamer trunk.",
-         "Astoundingly-4-14":"Hubris Comics, Top floor, in the “star” restroom on a table, near the steamer trunk.",
+         "Astoundingly-4-14":"Hubris Comics, Top floor, in the ï¿½starï¿½ restroom on a table, near the steamer trunk.",
          "Astoundingly-5-14":"Pickman Gallery, To the right of the steamer trunk in the last tunnel chamber, where you meet Pickman.",
          "Astoundingly-6-14":"Skylanes Flight 1981, On the restroom toilet below the cockpit.",
          "Astoundingly-7-14":"Outpost Zimonja, On the workshop.",
@@ -259,12 +326,12 @@
          "Astoundingly-9-14":"Old North Church, Inside Railroad HQ, on a metal desk in the brick crypt area, West area of the room.",
          "Astoundingly-10-14":"Sentinel site, In the metal hut, take the stairs to the left and turn right at the bottom of the first flight, on the red desk of the control panel.",
          "Astoundingly-11-14":"East Boston Preparatory School, On a desk in the computer room, top floor, Southeast corner.",
-         "Astoundingly-12-14":"The Institute, On the triangular table of the outside balcony, accessed via Holdren’s quarters, North of atrium.",
+         "Astoundingly-12-14":"The Institute, On the triangular table of the outside balcony, accessed via Holdrenï¿½s quarters, North of atrium.",
          "Astoundingly-13-14":"Crater of Atom, Top floor of the central metal shack built into the Western rocks.",
          "Astoundingly-14-14":"Trinity Plaza, On the lecturn, by the steamer trunk at the East side of the church interior",
          "Covert1-10":"Lexington: The Switchboard, On the desk by the terminal in the executive office above the open office and double stairwell area.",
          "Covert2-10":"USS Constitution, Ship interior, on a corner table inside the Captain's cabin.",
-         "Covert3-10":"Federal ration stockpile, On the main table in front of the sofa, in Red Tourette’s base, southeast tunnels near exit.",
+         "Covert3-10":"Federal ration stockpile, On the main table in front of the sofa, in Red Touretteï¿½s base, southeast tunnels near exit.",
          "Covert4-10":"Abandoned shack, In the Federal Survival Center, deepest area, on the light blue metal computer bank, near the steamer trunk and terminal.",
          "Covert5-10":"Fort Strong, On the desk of General Brock, southwest corner of the ground floor.",
          "Covert6-10":"Fort Hagen, Command Center, on the side table of the bedroom and kitchenette room, just east of the armory.",
@@ -277,23 +344,23 @@
          "Grognak2-10":"Inside an unmarked house north of the Andrew station, The house is located directly north of the Andrew station mark. There's a crashed bus on top of it. The comic book is located on a mattress on a second floor.",
          "Grognak3-10":"Sanctuary Hills, On the kitchen table of the House of Tomorrow, where Codsworth resides.",
          "Grognak4-10":"Corvega assembly plant, Assembly level (top floor), in the Raider metal hut accessed via catwalk bridge, near Steamer Trunk.",
-         "Grognak5-10":"Vault 75, On the bed, inside the Overseer’s office, top floor in Vault 75.",
-         "Grognak6-10":"Boston Common, In the bandstand, near the skeleton, close to Park Street Station entrance.",
+         "Grognak5-10":"Vault 75, On the bed, inside the Overseerï¿½s office, top floor in Vault 75.",
+         "Grognak6-10":"Boston Common, On ground under the pavillion, close to Park Street Station entrance.",
          "Grognak7-10":"Mass Pike Interchange, On the toilet inside the Gunner camp, by the Power Armor Station.",
          "Grognak8-10":"Back Street Apparel, On a living room table in the ruined upstairs apartment, near the TV and safe.",
          "Grognak9-10":"Hyde Park, In the raider camp on the roof of the buildings south of the main drag, on top of a safe behind a red couch.",
-         "Grognak10-10":"Museum of Witchcraft, On the table in the “dungeon” room, upper floor, south wall.",
+         "Grognak10-10":"Museum of Witchcraft, On the table in the ï¿½dungeonï¿½ room, upper floor, south wall.",
          "Guns":"+5% critical damage with ballistic weapons",
          "Guns1-10":"Fort Hagen, On the oval table in the kitchen area, top floor, southeast area.",
-         "Guns2-10":"Rook Family house, Inside Barney’s bunker, on a metal desk near the lantern and filing cabinet.",
+         "Guns2-10":"Rook Family house, Inside Barneyï¿½s bunker, on a metal desk near the lantern and filing cabinet.",
          "Guns3-10":"South Boston military checkpoint, Inside the checkpoint, on a metal desk, east wall.",
          "Guns4-10":"Gunners plaza, Top floor lounge, in the table surrounded by sofas, south mezzanine offices.",
          "Guns5-10":"Quincy ruins, On the desk with the terminal, elevated freeway Gunners camp, between the two big-rig trailers.",
-         "Guns6-10":"Cambridge police station, In a locked safe in the station chief’s office. Available only after Brotherhood reinforcements arrive at the station.",
+         "Guns6-10":"Cambridge police station, In a locked safe in the station chiefï¿½s office. Available only after Brotherhood reinforcements arrive at the station.",
          "Guns7-10":"Fraternal Post 115, On the lectern in the stage area, by the American flag and sandbags.",
          "Guns8-10":"Ticonderoga Safehouse, On the desk of the corner office, northwest corner, top floor.",
-         "Guns9-10":"BADTFL regional office, On a desk in the chief’s office, bullpen room in the western part of the building.",
-         "Guns10-10":"The Castle, On the radio operator’s desk, in the middle of the Castle grounds, outside.",
+         "Guns9-10":"BADTFL regional office, On a desk in the chiefï¿½s office, bullpen room in the western part of the building.",
+         "Guns10-10":"The Castle, On the radio operatorï¿½s desk, in the middle of the Castle grounds, outside.",
          "Rodder1":"Unlocks Flame Job Paint for the Power Armor",
          "Rodder2":"Unlocks Shark Job Paint for the Power Armor",
          "Rodder3":"Unlocks Hot Pink Job Paint for the Power Armor",
@@ -322,7 +389,7 @@
          "Live-7":" Companions permanently gain +10 health.",
          "Live-8":" Companions permanently gain +5 Damage Resistance and Energy Resistance.",
          "Live-9":" Permanently gain +5% XP while adventuring with a companion.",
-         "Wasteland-1-9":"Wreck of the USS Riptide, Inside the ship, on a table, under the bridge on the water’s level.",
+         "Wasteland-1-9":"Wreck of the USS Riptide, Inside the ship, on a table, under the bridge on the waterï¿½s level.",
          "Wasteland-2-9":"Crater House, Western side of the crater, on the table, lower level of a stilt shack with a lantern and caps stash on a table.",
          "Wasteland-3-9":"Egret Tours Marina, On the counter of the diner and coolant recharge station.",
          "Wasteland-4-9":"Lynn Woods, On the sleeping bag, inside the main shack with the steamer trunk.",
@@ -344,7 +411,7 @@
          "Fences-2-5":"inside Hardware Town [<a href=\"https://youtu.be/MhEmt_ruN_Y?t=94\" target=\"_blank\">Video</a>]",
          "Fences-3-5":"inside Saugus Ironworks [<a href=\"https://youtu.be/MhEmt_ruN_Y?t=132\" target=\"_blank\">Video</a>]",
          "Fences-4-5":"Combat Zone, On the formica table, ground level near the bar, in front of the main stage. [<a href=\"https://youtu.be/MhEmt_ruN_Y?t=146\" target=\"_blank\">Video</a>]'",
-         "Fences-5-5":"inside Weston water treatment plant [<a href=\"https://youtu.be/MhEmt_ruN_Y?t=76\" target=\"_blank\">Video</a>]",
+         "Fences-5-5":"Weston water treatment plant [<a href=\"https://youtu.be/MhEmt_ruN_Y?t=76\" target=\"_blank\">Video</a>]",
          "Fences-1":" Blueprint for picket fencing ",
          "Fences-2":" Blueprint for high tech light ",
          "Fences-3":" Blueprint for new statues",
@@ -369,8 +436,8 @@
          "RobCo":"Holotape Game",
          "RobCo-1-5":"Vault 111, Inside the cafeteria terminal, northeast area. Only the game is available.",
          "RobCo-2-5":"Museum of Freedom, In the chamber above the front doors, where Preston is holed up, on Sturges' desk.",
-         "RobCo-3-5":"Fort Hagen, Command Center - adjacent to Kellogg’s terminal under a table, in the chamber where you speak with Kellogg.",
-         "RobCo-4-5":"Valentine Detective Agency, On a desk, inside the Valentine’s Detective Agency located in Diamond City Market.",
+         "RobCo-3-5":"Fort Hagen, Command Center - adjacent to Kelloggï¿½s terminal under a table, in the chamber where you speak with Kellogg.",
+         "RobCo-4-5":"Valentine Detective Agency, On a desk, inside the Valentineï¿½s Detective Agency located in Diamond City Market.",
          "RobCo-5-5":"Goodneighbor, In the Memory Den",
          "Tales-1-8":"Walden Pond, On the barrel with the lantern on it, inside the pipe tunnel interior cave.",
          "Tales-2-8":"Mystic Pines, On the sideboard table by the TV, west wall, inside the building, just north of the main entrance.",
@@ -381,10 +448,10 @@
          "Tales-7-8":"Four Leaf fishpacking plant, Basement locker room, on the bench, western side of the plant.",
          "Tales-8-8":"Gwinnett brewery, Catwalk metal hut, upper level, along the northwest wall. Climb the pipes and catwalks to reach it.",
          "Tales":"better prices when buying from vendors",
-         "Tesla-1-9":"ArcJet Systems, In the CEO’s office on the second floor, next to his terminal.",
+         "Tesla-1-9":"ArcJet Systems, In the CEOï¿½s office on the second floor, next to his terminal.",
          "Tesla-2-9":"Mahkra Fishpacking, Lowest floor filleting room, on a small table, north east corner. Room below the one with the Steamer Trunk.",
          "Tesla-3-9":"Reeb Marina, On the wooden bench in the kitchen of the warehouse, near the birthday sweetroll.",
-         "Tesla-4-9":"Rocky cave, In Virgil’s Laboratory on a broken fridge, just left of Virgil’s terminal.",
+         "Tesla-4-9":"Rocky cave, In Virgilï¿½s Laboratory on a broken fridge, just left of Virgilï¿½s terminal.",
          "Tesla-5-9":"Poseidon Energy, On the metal desk with the Bobblehead near the steamer trunk, in the central metal catwalk hut.",
          "Tesla-6-9":"HalluciGen, Inc., First floor, in the Weaponization Research lab, in the northeast corner.",
          "Tesla-7-9":"Mass Fusion building, On the computer bank, southeast mezzanine room, upper offices above the glass floor.",
@@ -400,15 +467,15 @@
          "Tattoos-7-16":"todo",
          "Tattoos-8-16":"todo",
          "Tattoos-9-16":"todo",
-         "Tattoos-10-16":"Concord Civic Access, In the scavenger’s sleeping area, close to the steamer trunk, western area near exit stairs.",
+         "Tattoos-10-16":"Concord Civic Access, In the scavengerï¿½s sleeping area, close to the steamer trunk, western area near exit stairs.",
          "Tattoos-11-16":"todo",
          "Tattoos-12-16":"Irish Pride Industries shipyard, On the metal bench, inside the docked ship, in the shipyard interior.",
          "Tattoos-13-16":"todo",
          "Tattoos-14-16":"todo",
          "Tattoos-15-16":"todo",
          "Tattoos-16-16":"Vault 81, On the lowest level of the atrium, in the barber's shop.",
-         "Tumblers-1-5":"Easy City downs, On the side chest by the black sofa, in the commentator’s area, southwest side of the racetrack",
-         "Tumblers-2-5":"Fens street sewer, Next to the holotape on the metal drawers, inside the “cell” area of the sewers, northwest catwalks and tunnels.",
+         "Tumblers-1-5":"Easy City downs, On the side chest by the black sofa, in the commentatorï¿½s area, southwest side of the racetrack",
+         "Tumblers-2-5":"Fens street sewer, Next to the holotape on the metal drawers, inside the ï¿½cellï¿½ area of the sewers, northwest catwalks and tunnels.",
          "Tumblers-3-5":"West Roxbury station, In the open locker, eastern platform maintenance room, next wall button.",
          "Tumblers-4-5":"Malden center, Inside one of the cargo carriages at the station, in the Raider camp at the deepest part of this location.",
          "Tumblers-5-5":"Poseiden Energy Turbine 18-F, In the metal control room, northwest corner of the facility, by the steamer trunk, on a metal shelf.",
@@ -416,15 +483,15 @@
          "Unstoppables-1-5":"Westing Estate, On the shack closest to the river, with the lantern on the wooden floor near the mattress.",
          "Unstoppables-2-5":"Shaw High School, Library office on the lower level, with the Steamer Trunk. North area.",
          "Unstoppables-3-5":"Suffolk County charter school, In the library room, upper floor, by the holotape and steamer trunk.",
-         "Unstoppables-4-5":"Hubris Comics, On the shop counter, in front of the cheeky monkey and Grognak’s Axe in the display case.",
+         "Unstoppables-4-5":"Hubris Comics, On the shop counter, in front of the cheeky monkey and Grognakï¿½s Axe in the display case.",
          "Unstoppables-5-5":"Don Bosco Technical High School, Basement level swimming pool, northwest corner wall, on a table above a Fat Man and near the steamer trunk.",
          "Hack1-3":"Wildwood cemetery, Under the tree in the center of the cemetery.",
          "Hack2-3":"Wattz Consumer Electronics, Basement server room, on the terminal desk, north wall.",
-         "Hack3-3":"The Shamrock Taphouse, Held by the female mannequin standing on the table in the “game” room with the checkers board."
+         "Hack3-3":"The Shamrock Taphouse, Held by the female mannequin standing on the table in the ï¿½gameï¿½ room with the checkers board."
       }
    },
-   "bobblehead":{  
-      "label":{  
+   "bobblehead":{
+      "label":{
          "EnergyWeaponsBobblehead":"Energy Weapons Bobblehead",
          "BigGunsBobblehead":"Big Guns Bobblehea",
          "SmallGunsBobblehead":"Small Guns Bobblehead",
@@ -446,7 +513,7 @@
          "Perception":"+1 Perception Bobblehead",
          "Medicine":"Medicine Bobblehead"
       },
-      "desc":{  
+      "desc":{
          "EnergyWeaponsBobblehead":"increases critical damage with energy weapons by 25%. | Inside Fort Hagen - In the Command Center, southwest kitchens, on a small table between two fridges.",
          "BigGunsBobblehead":"increases 25% critical damage with heavy weapons | Inside Vault 95 - bottom Level, North Room",
          "SmallGunsBobblehead":"increases 25% critical damage with Small weapons | Gunners Plaza - Ground Floor, in the on-air room. You get the Key from a Guy in the top Floor",
