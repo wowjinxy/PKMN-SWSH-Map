@@ -13,7 +13,7 @@
 		fallbackLng: 'en',
 		resGetPath: '../files/locales/__lng__/__ns__.json',
 		useDataAttrOptions: true,
-		lngWhitelist: [ 'en', 'de', 'sk', 'pl', 'es', 'br', 'nl', 'ru', 'hu', 'it', 'kr' ]
+		lngWhitelist: [ 'en', 'de', 'sk', 'pl', 'es', 'br', 'nl', 'ru', 'hu', 'it', 'ko' ]
 	};
 
 	$.i18n.init(options, function() {
@@ -51,7 +51,7 @@
 		{text: "Portuguese",value: "br",selected: (localStorage['lang'] == "br" ? true : false),description: " ",imageSrc: "../files/img/flags/br.png"},
 		{text: "Dutch",value: "nl",selected: (localStorage['lang'] == "nl" ? true : false),description: " ",imageSrc: "../files/img/flags/nl.png"},
 		{text: "Italian",value: "it",selected: (localStorage['lang'] == "it" ? true : false),description: " ",imageSrc: "../files/img/flags/it.png"},
-		{text: "Korean ",value: "kr",selected: (localStorage['lang'] == "kr" ? true : false),description: " ",imageSrc: "../files/img/flags/kr.png"}
+		{text: "Korean ",value: "ko",selected: (localStorage['lang'] == "ko" ? true : false),description: " ",imageSrc: "../files/img/flags/kr.png"}
 	];
 
 	$('#lang-switcher').ddslick({
